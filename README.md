@@ -1,303 +1,248 @@
-# Awesome Wayland
-
-A lightly-curated list of [Wayland](https://gitlab.freedesktop.org/wayland/wayland) code and resources. Please investigate these projects on your own before fully committing to them! I have personal experience with some of the projects here, but for the others I rely heavily on the community for submissions, and generally just do a quick code search to see if it looks like the project supports Wayland natively.
-
-If you want to contribute, please read [this](CONTRIBUTING.md).
-
-## Table of contents
-
-  - [Break Notifiers](#break-notifiers)
-  - [Brightness Control](#brightness-control)
-  - [Browsers Without X Library Dependency](#browsers-without-x-library-dependency)
-  - [Clipboard Managers](#clipboard-managers)
-  - [Compositors](#compositors)
-  - [Display Configuration](#display-configuration)
-  - [Email Clients](#email-clients)
-  - [Emulation](#emulation)
-  - [IM](#im)
-  - [Image Viewers](#image-viewers)
-  - [Key Binding Management](#key-binding-management)
-  - [Launchers](#launchers)
-  - [Libraries](#libraries)
-  - [Music Players](#music-players)
-  - [Notifications](#notifications)
-  - [On-screen Keyboards](#on-screen-keyboards)
-  - [PDF Viewers](#pdf-viewers)
-  - [Process Managers](#process-managers)
-  - [Screen Locking](#screen-locking)
-  - [Screencasting](#screencasting)
-  - [Screenshots](#screenshots)
-  - [Session Management](#session-management)
-  - [Status Bars](#status-bars)
-  - [Subtitle Editors](#subtitle-editors)
-  - [Terminal Emulators](#terminal-emulators)
-  - [Text Editors](#text-editors)
-  - [Tools](#tools)
-  - [Video Players](#video-players)
-  - [Wallpaper](#wallpaper)
-  - [License](#license)
-
-## Break Notifiers
-
-* [Ianny](https://github.com/zer0-x/ianny) - Periodically informes user to take breaks by keeping track of usage patterns
-
-## Brightness Control
-
-No Wayland-specific requirements, so you can use your xorg solution of choice to control screen brightness, like [brightnessctl](https://github.com/Hummer12007/brightnessctl), [brillo](https://gitlab.com/cameronnemo/brillo), [light](https://github.com/haikarainen/light), or just directly manipulate `/sys/class/backlight`.
-
-* [Gammastep](https://gitlab.com/chinstrap/gammastep) - Day/night gamma modifier that adjusts the color temperature of your screen.
-* [Wlsunset](https://sr.ht/~kennylevinsen/wlsunset/) - Day/night gamma adjustments for Wayland compositors supporting wlr-gamma-control-unstable-v1
-* [Clight](https://github.com/FedeDP/Clight) - Day/night gamma adjustments for Wayland compositors supporting wlr-gamma-control-unstable-v1; automatic screen backlight calibration to match ambient brightness using either webcam or ambient light sensor devices; screen dimming.
-* [Luminance](https://github.com/sidevesh/Luminance) - A simple GTK application to control brightness of displays including external displays supporting DDC/CI
-
-## Browsers without X library dependency
-* Firefox and forks
-    * [Firefox](https://www.mozilla.org/en-US/firefox/new/) - For using Firefox on wayland just add `MOZ_ENABLE_WAYLAND=1` to your environment variables
-    * [Librewolf](https://librewolf.net/) - An independent fork of Firefox, with the primary goals of privacy, security and user freedom
-    * [Tor Browser](https://www.torproject.org/download/) - Tor Browser Bundle: anonymous browsing using Firefox and Tor
-
-* QtWebEngine
-    * [Crusta](https://github.com/Tarptaeya/Crusta) - Fast, modern and minimal desktop web browser with rich features
-    * [Dooble](https://textbrowser.github.io/dooble/) - The weather bug browser. Minimal, cute, and unusually stable
-    * [Falkon](https://www.falkon.org/) - KDE web browser
-    * [Viper Browser](https://github.com/LeFroid/Viper-Browser) - A lightweight browser using QtWebEngine
-    * [Qutebrowser](https://www.qutebrowser.org) - a keyboard-focused browser with a minimal GUI
-
-* WebKit2GTK
-    * [Surfer](https://github.com/nihilowy/surfer) - Simple keyboard based webkit2gtk browser
-    * [wyeb](https://github.com/jun7/wyeb) - A vim-like webkit2gtk browser
-
-## Clipboard Managers
-
-* [copyq](https://hluk.github.io/CopyQ/) - CopyQ is an advanced clipboard manager with editing and scripting features.
-* [wayclip](https://github.com/noocsharp/wayclip) -  Wayland clipboard utility
-* [wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Command-line copy/paste utilities for Wayland
-
-## Compositors
-
-* [Cagebreak](https://github.com/project-repo/cagebreak) - A Wayland tiling compositor inspired by Ratpoison
-* [Cardboard](https://gitlab.com/cardboardwm/cardboard) - A scrollable tiling Wayland compositor
-* [dwl](https://github.com/djpohly/dwl) - A rewrite of DWM for Wayland
-* [hikari](https://hikari.acmelabs.space/) - A hybrid stacking/tiling Wayland compositor
-* [Hyprland](https://github.com/vaxerski/Hyprland/) - Hyprland is a dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
-* [japokwm](https://github.com/werererer/japokwm) - A wlroots based dynamic tiling wayland compositor based around creating layouts
-* [Kiwmi](https://github.com/buffet/kiwmi) - A fully programmable Wayland compositor
-* [KWin](https://invent.kde.org/plasma/kwin) - KDE window manager and compositor
-* [labwc](https://github.com/labwc/labwc) - A stacking Wayland compositor with look and feel of openbox
-* [Mutter](https://wiki.gnome.org/Projects/Mutter/) - A window and compositing manager that displays and manages your desktop via OpenGL
-* [newm](https://github.com/jbuchermn/newm) - A Wayland compositor written with laptops and touchpads in mind
-* [river](https://github.com/ifreund/river) - A dynamic tiling Wayland compositor
-* [Sway](https://github.com/swaywm/sway) - i3-compatible Wayland compositor
-* [tinywl+](https://github.com/keshto/tinywl_plus) - A stacking wayland compositor based on tinywl. Great starting place for compositor development.
-* [Velox](https://github.com/michaelforney/velox) - Velox is a simple window manager based on swc, inspired by dwm and xmonad
-* [Vivarium](https://github.com/inclement/vivarium) - A dynamic tiling Wayland compositor using wlroots, with desktop semantics inspired by xmonad
-* [Waybox](https://github.com/wizbright/waybox) - An openbox clone on Wayland
-* [Wayfire](https://github.com/WayfireWM/wayfire) - 3D Wayland compositor
-* [Weston](https://gitlab.freedesktop.org/wayland/weston/) - Reference compositor for Wayland
-* [Qtile](https://github.com/qtile/qtile) - A full-featured, hackable tiling window manager written and configured in Python, [now supports wayland](https://mcol.xyz/2021/08/qtile-a-wayland-compositor.html)
-
-## Display Configuration
-
-* [Disman](https://gitlab.com/kwinft/disman) - General screen management software for different compositors based on KScreen
-* [Kanshi](https://git.sr.ht/~emersion/kanshi) - Dynamic display configuration
-* [KScreen](https://invent.kde.org/plasma/kscreen) - KDE's screen management software
-* [kscreen-doctor](https://invent.kde.org/plasma/libkscreen) - An xrandr-like utility for Plasma
-* [nwg-displays](https://github.com/nwg-piotr/nwg-displays) - Output management utility for sway Wayland compositor, inspired by wdisplays and wlay.
-* [swaymsg](https://github.com/swaywm/sway) - General settings utility for Sway that also manages displays
-* [Wallutils](https://github.com/xyproto/wallutils) - A set of utilities to manage monitors, resolutions, wallpapers and timed wallpapers
-* [wayout](https://git.sr.ht/~shinyzenith/wayout) - A Simple tool to set output modes for wlroots compositors implementing zwlr_output_power_management_v1
-* [wdisplays](https://github.com/artizirk/wdisplays) - GUI display configurator for wlroots compositors
-* [wlay](https://github.com/atx/wlay) - Graphical output management for Wayland
-* [wlopm](https://git.sr.ht/~leon_plickat/wlopm) - Wayland output power management tool
-* [wlr-randr](https://sr.ht/~emersion/wlr-randr/) - An xrandr clone for wlroots compositors
-
-## Email Clients
-
-* [KMail](https://invent.kde.org/pim/kmail) - Feature-rich email client that supports many protocols
-* [Thunderbird](https://www.thunderbird.net/) - Standalone mail and news reader from mozilla.org
-
-## Emulation
-
-* [Waydroid](https://waydro.id/) - A container-based approach to boot a full Android system on GNU/Linux
-
-## IM
-
-* [Neochat](https://invent.kde.org/network/neochat) - A Matrix client made with Kirigami
-* [Ruqola](https://invent.kde.org/network/ruqola) - A Rocket.Chat client made with QtQuick/QML
-
-## Image Viewers
-
-* [Gwenview](https://invent.kde.org/graphics/gwenview) - Image viewer by KDE
-* [imv](https://github.com/eXeC64/imv) - A command line image viewer for X11/Wayland
-* [Koko](https://invent.kde.org/graphics/koko) - Image viewer for desktop and mobile
-* [LXImage-Qt](https://github.com/lxqt/lximage-qt) - Simple and fast image viewer in Qt
-* [mvi](https://github.com/occivink/mpv-image-viewer) - A command line image viewer utilizing mpv
-* [oculante](https://github.com/woelper/oculante) — A fast, unobstrusive portable image viewer
-* [Pix](https://invent.kde.org/maui/pix) - Maui's image viewer for desktop and mobile
-* [Swayimg](https://github.com/artemsen/swayimg) -  Image viewer for Sway/Wayland
-* [vimiv](https://karlch.github.io/vimiv/) - An image viewer with vim-like keybindings
-
-## Key Binding Management
-
-* [keyd](https://github.com/rvaiya/keyd) - System-wide daemon to remap keys using kernel input primitives (evdev, uinput)
-* [swhkd](https://github.com/waycrate/swhkd/) - A display protocol-independent hotkey daemon
-
-## Launchers
-
-* [albert](https://github.com/albertlauncher/albert) - A fast and flexible keyboard launcher
-* [bemenu](https://github.com/Cloudef/bemenu) - Dynamic menu library and client program inspired by dmenu
-* [dmenu-wayland](https://github.com/nyyManni/dmenu-wayland) - dmenu-wl is an efficient dynamic menu for wayland (wlroots)
-* [fuzzel](https://codeberg.org/dnkl/fuzzel) - Application launcher for wlroots based Wayland compositors, similar to rofi's `drun` mode
-* [kickoff](https://github.com/j0ru/kickoff) - Application launcher with a focus on snappyness
-* [KRunner](https://invent.kde.org/frameworks/krunner) - Application launcher for Plasma
-* [LavaLauncher](https://git.sr.ht/~leon_plickat/lavalauncher) - A simple launcher panel for Wayland desktops
-* [Mauncher](https://github.com/mortie/mauncher) - A GTK-based alternative to dmenu for Wayland which supports display scaling
-* [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) - A GTK-based application grid launcher, button bar and dmenu for Wayland
-* [sirula](https://github.com/DorianRudolph/sirula) - Simple app launcher for Wayland written in Rust
-* [wldash](https://github.com/kennylevinsen/wldash) - Wayland dashboard and launcher written in Rust
-* [Wofi](https://hg.sr.ht/~scoopta/wofi) - A launcher/menu program for wlroots based Wayland compositors such as sway
-* [yofi](https://github.com/l4l/yofi) - A minimalistic menu for wayland
-* [rofi](https://github.com/lbonn/rofi) - A fork of rofi with Wayland support
-* [tofi](https://github.com/philj56/tofi) - Tiny dynamic menu for Wayland
-
-## Libraries
-
-* [client toolkit](https://github.com/Smithay/client-toolkit) - A toolkit for writing Wayland clients in Rust
-* [Mir](https://github.com/MirServer/mir) - Mir is set of libraries for building Wayland based shells
-* [smithay](https://github.com/Smithay/smithay) - A modular smithy for making Wayland compositors in Rust
-* [swc](https://github.com/michaelforney/swc) - A library for making a simple Wayland compositor
-* [wld](https://github.com/michaelforney/wld) - A primitive drawing library targeted at Wayland
-* [wlroots](https://github.com/swaywm/wlroots) - Pluggable, composable, unopinionated modules for building a Wayland compositor
-
-## Music Players
-
-* [Elisa](https://invent.kde.org/multimedia/elisa) - A music player that is simple, reliable, and a joy to use
-* [vvave](https://invent.kde.org/maui/vvave) - Maui's music player for desktop and mobile
-
-## Notifications
-
-* [avizo](https://github.com/misterdanb/avizo) - Simple notification daemon, mainly intended to be used for multimedia keys
-* [fnott](https://codeberg.org/dnkl/fnott) - Keyboard driven and lightweight Wayland notification daemon for wlroots-based compositors
-* [Mako](https://github.com/emersion/mako) - A lightweight Wayland notification daemon
-* [dunst](https://github.com/dunst-project/dunst) - A highly configurable and lightweight notification daemon
-* [swaync](https://github.com/ErikReider/SwayNotificationCenter) - A simple notification daemon with a GTK gui for notifications and the control center
-* [wob](https://github.com/francma/wob) - A lightweight overlay volume/backlight/progress/anything bar for Wayland
-
-## On-screen Keyboards
-
-* [wf-osk](https://github.com/WayfireWM/wf-osk) - A very, very basic on-screen keyboard using gtkmm, virtual-keyboard-v1 and layer-shell protocols
-
-## PDF Viewers
-
-* [Okular](https://invent.kde.org/graphics/okular) - KDE Document Viewer
-* [zathura](https://git.pwmt.org/pwmt/zathura) - A document viewer
-
-## Process Managers
-
-* [Qps](https://github.com/lxqt/qps/) - Qt Process Viewer and Manager
-
-## Screen Locking
-
-* [gtklock](https://github.com/jovanlanik/gtklock) - GTK-based lockscreen for Wayland
-* [swayidle](https://github.com/swaywm/swayidle) - Idle management daemon for Wayland
-* [swaylock](https://github.com/swaywm/swaylock) - Screen locker for Wayland
-* [swaylock-effects](https://github.com/mortie/swaylock-effects) - A fork of swaylock with effects such as a blurred screenshot as background or a clock on the lockscreen
-* [waylock](https://github.com/ifreund/waylock) - A simple screenlocker for Wayland compositors
-
-## Screencasting
-
-* [GNOME ScreenCast](https://gitlab.gnome.org/GNOME/mutter) - GNOME's default screen recorder embedded in Mutter
-* [Green Recorder](https://github.com/mhsabbagh/green-recorder) - Screen recorder for GNOME (unmaintained!)
-* [Kooha](https://github.com/SeaDve/Kooha) - Minimalistic screen recorder for GNOME and Plasma using the xdg-desktop-portal ScreenCast protocol
-* [OBS Studio](https://github.com/obsproject/obs-studio) - Compositor-independent screen recorder with support for v4l2loopback
-* [Peek](https://github.com/phw/peek) - An animated gif recorder for GNOME
-* [RecApp](https://github.com/amikha1lov/RecApp) - Simple screen recorder for GNOME
-* [ssr-wlroots](https://github.com/foxcpp/ssr-wlroots) - A version of SimpleScreenRecorder with support for `wlroots`-based compositors (more specifically, those that support `wlr-screencopy-v1` and `xdg-output`) - doesn't support recording area selection and has issues with multiple screens
-* [wayfarer](https://github.com/stronnag/wayfarer) - Screen recorder for GNOME
-* [wayrec](https://invent.kde.org/bharadwaj-raju/wayrec) - Experimental screen recorder for Wayland using the freedesktop ScreenCast portal
-* [wf-recorder](https://github.com/ammen99/wf-recorder) - A utility program for screen recording of `wlroots`-based compositors (more specifically, those that support `wlr-screencopy-v1` and `xdg-output`)
-* [wl-mirror](https://github.com/Ferdi265/wl-mirror) - A simple Wayland output mirror client
-* [wl-screenrec](https://github.com/russelltg/wl-screenrec) - High performance wlroots screen recording, featuring hardware encoding
-* [wlrobs](https://hg.sr.ht/~scoopta/wlrobs) - An obs-studio plugin that allows you to screen capture on wlroots based wayland compositors
-* [wshowkeys](https://git.sr.ht/~sircmpwn/wshowkeys) - Displays keys being pressed on a Wayland session
-
-## Screenshots
-
-* [Flameshot](https://github.com/flameshot-org/flameshot) - Powerful yet simple to use screenshot software (requires [grim](https://github.com/emersion/grim) on wlroots)
-* [Grim](https://github.com/emersion/grim) - Grab images from a Wayland compositor
-* [ksnip](https://github.com/ksnip/ksnip) - ksnip the cross-platform screenshot and annotation tool
-* [Shotman](https://git.sr.ht/~whynothugo/shotman) - Uncompromising screenshot GUI for Wayland compositors
-* [Slurp](https://github.com/emersion/slurp) - Select a region in a Wayland compositor
-* [Spectacle](https://invent.kde.org/graphics/spectacle) - GUI application for capturing screenshots
-* [Swappy](https://github.com/jtheoof/swappy) - A Wayland-native snapshot editing tool, inspired by Snappy on macOS
-* [Watershot](https://github.com/Kirottu/watershot) - A simple wayland native screenshot tool inspired by Flameshot
-* [Wayshot](https://git.sr.ht/~shinyzenith/wayshot) - A screenshot tool for wlroots compositors implementing zwlr_screencopy_v1.
-* [Weye](https://github.com/Yakkhini/Weye) - A lightweight screenshot tool for sway users, written in Rust. This tool uses grimshot commands to screenshot
-
-## Session Management
-
-* [wlogout](https://github.com/ArtsyMacaw/wlogout) - A Wayland-based logout menu
-
-## Status Bars
-
-* [i3status-rust](https://github.com/greshake/i3status-rust) - Very resource-friendly and feature-rich replacement for i3status, written in pure Rust
-* [ironbar](https://github.com/JakeStanger/ironbar) - A customisable and feature-rich GTK bar for wlroots compositors, written in Rust, supporting content-rich popoups.
-* [rootbar](https://hg.sr.ht/~scoopta/rootbar) - Root Bar is a bar for wlroots based Wayland compositors such as sway
-* [sfwbar](https://github.com/LBCrion/sfwbar) - Sway Floating Window Bar is a taskbar for Sway, focused on a stacking layout workflow
-* [waybar](https://github.com/Alexays/Waybar) - Highly customizable Wayland bar for Sway and Wlroots based compositors
-* [yambar](https://codeberg.org/dnkl/yambar) - Modular status panel for X11 and Wayland, inspired by polybar
-* [eww](https://github.com/elkowar/eww) - Standalone widget system made in Rust that allows you to implement your own, custom widgets in any window manager.
-
-## Subtitle Editors
-
-* [Subtitle Composer](https://invent.kde.org/multimedia/subtitlecomposer) - Current git builds include an ffmpeg-based video player fully Wayland native
-
-## Terminal Emulators
-
-* [Alacritty](https://github.com/alacritty/alacritty) - A cross-platform, GPU-accelerated terminal emulator
-* [Ate](https://github.com/andir/ate) - Awesome terminal emulator
-* [Foot](https://codeberg.org/dnkl/foot) - A fast, lightweight and minimalistic Wayland terminal emulator
-* [Germinal](https://github.com/Keruspe/Germinal) - Minimalist vte-based terminal emulator
-* [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) - A terminal emulator for GNOME
-* [Havoc](https://github.com/ii8/havoc) - A minimal terminal emulator for Wayland
-* [Kitty](https://github.com/kovidgoyal/kitty) - A cross-platform, fast, feature-full, GPU-based terminal emulator
-* [Konsole](https://invent.kde.org/utilities/konsole) - Terminal emulator by KDE
-* [Termite](https://github.com/thestinger/termite) - A keyboard-centric VTE-based terminal, aimed at use within a window manager with tiling and/or tabbing support (Termite is obsoleted by Alacritty!)
-* [wezterm](https://wezfurlong.org/wezterm/) - A GPU-accelerated cross-platform terminal emulator and multiplexer
-* [wterm](https://github.com/majestrate/wterm) - An [st](https://st.suckless.org/) fork for wayland
-* [Xfce Terminal](https://docs.xfce.org/apps/terminal/start) - A graphically-configurable terminal for Xfce
-
-## Text Editors
-
-* [FeatherPad](https://github.com/tsujan/FeatherPad) -  Lightweight and feature rich Qt plain-text editor
-* [Kate](https://invent.kde.org/utilities/kate) - Modern text editor built on the KDE Frameworks and Qt
-* [KWrite](https://invent.kde.org/utilities/kate) - Simple notepad-like editor based on Kate
-* [Nota](https://invent.kde.org/maui/nota) - Maui's simple text editor for desktop and mobile
-
-## Tools
-
-* [lswt](https://git.sr.ht/~leon_plickat/lswt) - List Wayland toplevels in both human readable and machine parsable formats
-* [waylevel](https://git.sr.ht/~shinyzenith/waylevel) - A simple debugging tool which lists compositor specific information.
-* [wev](https://git.sr.ht/~sircmpwn/wev) - A tool for debugging events on a Wayland window, analogous to the X11 tool xev
-* [wtype](https://github.com/atx/wtype) - A Wayland tool that allows you to simulate keyboard input like [xdotool](https://github.com/jordansissel/xdotool)
-* [ydotool](https://github.com/ReimuNotMoe/ydotool) - A generic Linux command-line automation tool for Wayland
-
-## Video Players
-
-* [Haruna](https://invent.kde.org/multimedia/haruna) - Video player built with Qt/QML and libmpv
-* [mpv](https://github.com/mpv-player/mpv) - Command line video player
-
-## Wallpaper
-
-* [mpvpaper](https://github.com/GhostNaN/mpvpaper) - A video wallpaper program for wlroots based wayland compositors
-* [plasma-apply-wallpaperimage](https://invent.kde.org/plasma/plasma-workspace) - A terminal utility to change wallpaper on Plasma
-* [swaybg](https://github.com/swaywm/swaybg) - A wallpaper utility for Wayland compositors
-* [swww](https://github.com/Horus645/swww) - A Solution to your Wayland Wallpaper Woes
-* [Wallutils](https://github.com/xyproto/wallutils) - A set of utilities to manage monitors, resolutions, wallpapers and timed wallpapers
-* [waypaper](https://github.com/anufrievroman/waypaper) - GUI frontend for swaybg/swww to switch wallpapers
-* [wpaperd](https://github.com/danyspin97/wpaperd) - Wallpaper daemon that shows random wallpapers from a directory and changes them after some time
-* [wbg](https://codeberg.org/dnkl/wbg) - Super simple wallpaper application for Wayland compositors
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+<h1 align="center">
+  <samp style="color: #ffffff; background-color: #ffbc00;">Awesome Wayland</samp>
+</h1>
+
+A curated list of [Wayland](https://gitlab.freedesktop.org/wayland/wayland) resources. Please investigate these projects on your own before fully committing to them!
+
+This repository is a hard fork of [natpen/awesome-wayland](https://github.com/natpen/awesome-wayland) since it was archived on Oct. 17, 2023.
+
+There are no current plans to apply to the [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) project for inclusion.
+
+If you want to contribute, please read [this](https://github.com/rcalixte/awesome-wayland/blob/master/.github/CONTRIBUTING).
+
+SCOPE
+-----
+
+The scope of this repository aims to capture applications, libraries, etc. that are **designed** to support the Wayland ecosystem. This does not include existing applications that have implemented support for Wayland. That list is being maintained at [mpsq/arewewaylandyet](https://github.com/mpsq/arewewaylandyet) which is the repository for [arewewaylandyet.com](https://arewewaylandyet.com/).
+
+TABLE OF CONTENTS
+-----------------
+
+- [SCOPE](#scope)
+- [TABLE OF CONTENTS](#table-of-contents)
+- [BARS](#bars)
+- [BREAK NOTIFIERS](#break-notifiers)
+- [BRIGHTNESS CONTROL](#brightness-control)
+- [CLIPBOARD MANAGERS](#clipboard-managers)
+- [COMPOSITORS](#compositors)
+- [DISPLAY CONFIGURATION](#display-configuration)
+- [EMULATION](#emulation)
+- [IMAGE VIEWING](#image-viewing)
+- [LAUNCHERS](#launchers)
+- [LIBRARIES](#libraries)
+- [NOTIFICATIONS](#notifications)
+- [ON-SCREEN KEYBOARDS](#on-screen-keyboards)
+- [SCREEN LOCKING](#screen-locking)
+- [SCREENCASTS](#screencasts)
+- [SCREENSHOTS](#screenshots)
+- [SESSION MANAGEMENT](#session-management)
+- [THEMING](#theming)
+- [TOOLS](#tools)
+- [WALLPAPER](#wallpaper)
+
+BARS
+----
+
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Eww](https://github.com/elkowar/eww) - A standalone widget system that allows for implementing custom widgets in any window manager
+- ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [Hybridbar](https://github.com/hcsubser/hybridbar) - A top panel forked from wingpanel for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [i3status-rust](https://github.com/greshake/i3status-rust) - A resource-friendly and feature-rich replacement for i3status
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Ironbar](https://github.com/JakeStanger/ironbar) - A customizable and feature-rich GTK bar for wlroots-based compositors
+- ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [nwg-panel](https://github.com/nwg-piotr/nwg-panel) - A GTK 3-based panel for Wayland compositors
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Root Bar](https://hg.sr.ht/~scoopta/rootbar) - A bar for wlroots-based Wayland compositors such as sway
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [SFWBar](https://github.com/LBCrion/sfwbar) - A flexible taskbar application for Wayland compositors, designed with a stacking layout in mind
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Wapanel](https://github.com/Firstbober/wapanel) - A simple panel/status bar/task bar for stacking Wayland-based desktops
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Waybar](https://github.com/Alexays/Waybar) - A highly customizable bar for Sway and wlroots-based compositors
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wob](https://github.com/francma/wob) - A lightweight overlay volume/backlight/progress/anything bar for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
+- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [YaGoStatus](https://github.com/burik666/yagostatus) - A replacement for i3status
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [yambar](https://codeberg.org/dnkl/yambar) - A lightweight and configurable status panel, inspired by polybar
+
+BREAK NOTIFIERS
+---------------
+
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Ianny](https://github.com/zer0-x/ianny) - Periodically informs user to take breaks by keeping track of usage patterns
+
+BRIGHTNESS CONTROL
+------------------
+
+No Wayland-specific requirements, so you can use your Xorg solution of choice to control screen brightness, like [brightnessctl](https://github.com/Hummer12007/brightnessctl), [brillo](https://gitlab.com/cameronnemo/brillo), [light](https://github.com/haikarainen/light), or just directly manipulate `/sys/class/backlight`.
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Clight](https://github.com/FedeDP/Clight) - Day/night gamma adjustments for Wayland compositors supporting `wlr-gamma-control-unstable-v1`; automatic screen backlight calibration to match ambient brightness using either webcam or ambient light sensor devices; screen dimming
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Gammastep](https://gitlab.com/chinstrap/gammastep) - A day/night gamma modifier that adjusts the color temperature of the screen
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Luminance](https://github.com/sidevesh/Luminance) - A simple GTK application to control brightness of displays including external displays supporting DDC/CI
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wl-gammactl](https://github.com/mischw/wl-gammactl) - A GTK application to set contrast, brightness, and gamma using the `wlr-gamma-control` protocol
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) - A day/night gamma adjustments for Wayland compositors supporting `wlr-gamma-control-unstable-v1` and `xdg-output-unstable-v1` protocols
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wluma](https://github.com/maximbaz/wluma) - A tool for wlroots-based compositors that automatically adjust screen brightness based on screen contents and ambient light
+
+CLIPBOARD MANAGERS
+------------------
+
+- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [cliphist](https://github.com/sentriz/cliphist) - A clipboard history manager for Wayland
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayclip](https://github.com/noocsharp/wayclip) - A Wayland clipboard utility implementing the `wlr-data-control-unstable-v1` protocol
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Command-line copy/paste utilities for Wayland
+
+COMPOSITORS
+-----------
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Cagebreak](https://github.com/project-repo/cagebreak) - A Wayland tiling compositor inspired by Ratpoison
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dwl](https://codeberg.org/dwl/dwl) - A wlroots-based rewrite of DWM for Wayland
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) [Greenfield](https://github.com/udevbe/greenfield) - An HTML5 Wayland compositor that runs directly in the browser
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [hikari](https://hub.darcs.net/raichoo/hikari) - A hybrid stacking/tiling Wayland compositor based on wlroots
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Hopalong](https://github.com/iridescent-desktop/hopalong) - A simple Wayland compositor with a feature set comparable to XFWM
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Hyprland](https://github.com/hyprwm/Hyprland) - A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [japokwm](https://github.com/werererer/japokwm) - A wlroots-based dynamic tiling Wayland compositor based around creating layouts
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [kiwmi](https://github.com/buffet/kiwmi) - A fully programmable Wayland compositor
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [labwc](https://github.com/labwc/labwc) - A wlroots-based stacking compositor for Wayland, inspired by openbox
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [LaikaWM](https://github.com/ianmartinez/laikawm) - A lightweight compositor for Wayland inspired by IceWM and Fluxbox
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Liri Shell](https://github.com/lirios/shell) - A convergent shell for desktops, phones, and tablets
+- ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [newm-atha](https://git.sr.ht/~atha/newm-atha) - A Wayland compositor written with laptops and touchpads in mind
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [phoc](https://gitlab.gnome.org/World/Phosh/phoc) - A wlroots-based Wayland compositor mostly used on mobile phones
+- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [river](https://github.com/ifreund/river) - A dynamic tiling Wayland compositor
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [SwayFX](https://github.com/WillPower3309/swayfx) - Sway, but with eye candy
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [sway](https://github.com/swaywm/sway) - An i3-compatible Wayland compositor
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tinybox](https://github.com/icedman/tinybox) - A window manager based on tinywl inspired by Blackbox, Fluxbox, and Openbox
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tinywl+](https://github.com/keshto/tinywl_plus) - A stacking Wayland compositor based on tinywl and a great starting place for compositor development
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [velox](https://github.com/michaelforney/velox) - A simple window manager based on swc, inspired by dwm and xmonad
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Vivarium](https://github.com/inclement/vivarium) - A dynamic tiling Wayland compositor using wlroots, with desktop semantics inspired by xmonad
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Waybox](https://github.com/wizbright/waybox) - An openbox clone on Wayland
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Wayfire](https://github.com/WayfireWM/wayfire) - A 3D wlroots-based Wayland compositor inspired by Compiz
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Weston](https://gitlab.freedesktop.org/wayland/weston/) - A Wayland compositor designed for correctness, reliability, predictability, and performance
+
+DISPLAY CONFIGURATION
+---------------------
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Kanshi](https://git.sr.ht/~emersion/kanshi) - A dynamic display configuration tool for Wayland similar to autorandr, usable on Wayland compositors supporting the `wlr-output-management` protocol
+- ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [nwg-displays](https://github.com/nwg-piotr/nwg-displays) - An output management utility for sway and Hyprland, inspired by wdisplays and wlay
+- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [Wallutils](https://github.com/xyproto/wallutils) - A set of utilities to handle monitors, resolutions, wallpapers, and timed wallpapers
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wayout](https://git.sr.ht/~shinyzenith/wayout) - A simple output management tool for wlroots-based compositors implementing `wlr-output-management-unstable-v1`
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wdisplays](https://github.com/artizirk/wdisplays) - A GUI application for configuring displays in wlroots-based compositors implementing the `wlr-output-management-unstable-v1` protocol
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlay](https://github.com/atx/wlay) - Graphical output management for Wayland
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlr-randr](https://git.sr.ht/~emersion/wlr-randr) - A utility to manage outputs of wlroots-based Wayland compositors, inspired by xrandr
+
+EMULATION
+---------
+
+- ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [Waydroid](https://github.com/waydroid/waydroid) - A container-based approach to boot a full Android system on GNU/Linux
+
+IMAGE VIEWING
+-------------
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Swayimg](https://github.com/artemsen/swayimg) - An image viewer for Sway/Wayland
+
+LAUNCHERS
+---------
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [bemenu](https://github.com/Cloudef/bemenu) - A dynamic menu library and client program inspired by dmenu
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dmenu-wayland](https://github.com/nyyManni/dmenu-wayland) - A wlroots-based dynamic menu for Wayland
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [fuzzel](https://codeberg.org/dnkl/fuzzel) - An application launcher for wlroots-based Wayland compositors, similar to rofi's `drun` mode
+- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [gmenu](https://code.rocket9labs.com/tslocum/gmenu) - A desktop application launcher
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [kickoff](https://github.com/j0ru/kickoff) - A wlroots-based application launcher
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [LavaLauncher](https://git.sr.ht/~leon_plickat/lavalauncher) - A simple launcher panel for Wayland desktops
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Mauncher](https://github.com/mortie/mauncher) - A GTK-based alternative to dmenu for Wayland which supports display scaling
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) - A GTK-based application grid launcher, button bar, and dmenu for Sway with a best effort for other Wayland environments
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [rofi](https://github.com/lbonn/rofi) - A fork of rofi with Wayland support
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [sirula](https://github.com/DorianRudolph/sirula) - A simple application launcher for Wayland
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tofi](https://github.com/philj56/tofi) - A dynamic menu replacement for dmenu or rofi for wlroots-based Wayland compositors
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wldash](https://github.com/kennylevinsen/wldash) - A dashboard, launcher, or control panel for Wayland, using the `wlr-layer-shell-unstable-v1` protocol
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wmenu](https://git.sr.ht/~adnano/wmenu) - A dynamic menu for Sway and wlroots-based compositors inspired by dmenu
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [yofi](https://github.com/l4l/yofi) - A minimalistic menu for Wayland-based compositors
+
+LIBRARIES
+---------
+
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [client toolkit](https://github.com/Smithay/client-toolkit) - A toolkit for writing Wayland clients in Rust
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Louvre](https://github.com/CuarzoSoftware/Louvre) - A library designed for building Wayland compositors in C++
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Mir](https://github.com/MirServer/mir) - A set of libraries for building Wayland-based shells
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [smithay](https://github.com/Smithay/smithay) - A compositor library for Wayland
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swc](https://github.com/michaelforney/swc) - A small Wayland compositor implemented as a library
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wld](https://github.com/michaelforney/wld) - A drawing library that targets Wayland
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/) - Pluggable, composable, and unopinionated modules for building a Wayland compositor
+
+NOTIFICATIONS
+-------------
+
+- ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [Avizo](https://github.com/misterdanb/avizo) - A simple notification daemon, mainly intended to be used for multimedia keys
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dunst](https://github.com/dunst-project/dunst) - A highly configurable and lightweight notification daemon
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [fnott](https://codeberg.org/dnkl/fnott) - A keyboard-driven and lightweight notification daemon for wlroots-based Wayland compositors
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [mako](https://github.com/emersion/mako) - A lightweight notification daemon for Wayland implementing the `wlr-layer-shell-unstable-v1` protocol
+- ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter) - A simple notification daemon with a GTK GUI for notifications and the control center implementing the `wlr-layer-shell-unstable-v1` protocol
+
+ON-SCREEN KEYBOARDS
+-------------------
+
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wf-osk](https://github.com/WayfireWM/wf-osk) - A very, very basic on-screen keyboard using gtkmm and the `virtual-keyboard-unstable-v1` and `wlr-layer-shell-unstable-v1` protocols
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wshowkeys](https://git.sr.ht/~sircmpwn/wshowkeys) - Displays keypresses on screen on Wayland compositors supporting the `wlr-layer-shell-unstable-v1` protocol
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wvkbd](https://github.com/jjsullivan5196/wvkbd) - An on-screen keyboard for wlroots-based compositors
+
+SCREEN LOCKING
+--------------
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [gtklock](https://github.com/jovanlanik/gtklock) - A GTK-based lockscreen for wlroots-based Wayland compositors using the `wlr-layer-shell-unstable-v1` and `wlr-input-inhibitor` Wayland protocols
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Shaderlock](https://github.com/RobinMcCorkell/shaderlock) - A wlroots-based screenlocker for Wayland utilizing GPU shaders
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swayidle](https://github.com/swaywm/swayidle) - An idle management daemon for Wayland which implements the `ext-idle-notify-v1` protocol
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swaylock-effects](https://github.com/mortie/swaylock-effects) - A fork of swaylock which adds, built-in screenshots, image manipulation, and various other effects like blurring
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swaylock](https://github.com/swaywm/swaylock) - A screen locking utility for Wayland which implements the `ext-idle-notify-v1` protocol protocol
+- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [waylock](https://github.com/ifreund/waylock) - A small screenlocker for Wayland compositors implementing the `ext-session-lock-v1` protocol
+
+SCREENCASTS
+-----------
+
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Kooha](https://github.com/SeaDve/Kooha) - Minimalistic screen recorder for Wayland sessions implementing the `org.freedesktop.impl.portal.ScreenCast` protocol
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [ssr-wlroots](https://github.com/foxcpp/ssr-wlroots) - A fork of SimpleScreenRecorder with support for wlroots-based compositors (more specifically, those that support `wlr-screencopy-unstable-v1` and `xdg-output-unstable-v1`) - doesn't support recording area selection and has issues with multiple screens
+- ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [wayfarer](https://github.com/stronnag/wayfarer) - A screen recorder for GNOME/Wayland/PipeWire implementing the `org.freedesktop.impl.portal.ScreenCast` protocol
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wayrec](https://invent.kde.org/bharadwaj-raju/wayrec) - A simple screen recorder using the `org.freedesktop.impl.portal.ScreenCast` protocol
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wf-recorder](https://github.com/ammen99/wf-recorder) - A utility program for screen recording of wlroots-based compositors (more specifically, those that support `wlr-screencopy-unstable-v1` and `xdg-output-unstable-v1`)
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wl-mirror](https://github.com/Ferdi265/wl-mirror) - A simple Wayland output mirror client
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlrobs](https://hg.sr.ht/~scoopta/wlrobs) - A plugin for OBS Studio that allows screen capture on wlroots-based Wayland compositors
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wl-screenrec](https://github.com/russelltg/wl-screenrec) - A screen recorder for wlroots-based Wayland compositors leveraging DMA-BUF and the DRM and implementing the `wlr-output-management-unstable-v1` and `wlr-screencopy-unstable-v1` protocols
+
+SCREENSHOTS
+-----------
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [grim](https://git.sr.ht/~emersion/grim) - Grab images from a Wayland compositor
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Satty](https://github.com/gabm/Satty) - A screenshot annotation tool inspired by Swappy and Flameshot
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [shotman](https://git.sr.ht/~whynothugo/shotman) - A screenshot GUI for Wayland compositors implementing `wlr-layer-shell-unstable-v1`, `wlr-screencopy-unstable-v1`, and `single-pixel-buffer-v1` protocols
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [slurp](https://github.com/emersion/slurp) - Select a region in a Wayland compositor and print it to the standard output
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swappy](https://github.com/jtheoof/swappy) - A Wayland-native snapshot editing tool, inspired by Snappy on macOS
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Taiga](https://hg.sr.ht/~scoopta/taiga) - An animated screenshot program for wlroots-based Wayland compositors
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Watershot](https://github.com/Kirottu/watershot) - A simple Wayland-native screenshot tool inspired by Flameshot
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Wayshot](https://git.sr.ht/~shinyzenith/wayshot) - A screenshot tool for wlroots-based compositors implementing `wlr-screencopy-unstable-v1`
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Weye](https://github.com/Yakkhini/Weye) - A lightweight screenshot tool for sway users
+
+SESSION MANAGEMENT
+------------------
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlogout](https://github.com/ArtsyMacaw/wlogout) - A Wayland-based logout menu
+
+THEMING
+-------
+
+- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [nwg-look](https://github.com/nwg-piotr/nwg-look) - A GTK 3 settings editor designed to work properly in a wlroots-based environment
+
+TOOLS
+-----
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [lswt](https://git.sr.ht/~leon_plickat/lswt) - List Wayland toplevels in both human readable and machine parsable formats via the `wlr-foreign-toplevel-management-unstable-v1` protocol
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Waycheck](https://gitlab.freedesktop.org/serebit/waycheck) - A simple application that displays all of the Wayland protocols supported and unsupported by the running compositor
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [waylevel](https://git.sr.ht/~shinyzenith/waylevel) - A simple debugging tool which prints Wayland toplevels and other compositor specific information
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [waynergy](https://github.com/r-c-f/waynergy) - An implementation of a synergy client for Wayland compositors
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [waypipe](https://gitlab.freedesktop.org/mstoeckl/waypipe) - A proxy for Wayland clients enabling application forwarding similar to `ssh -X`
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayvnc](https://github.com/any1/wayvnc) - A VNC server for wlroots-based Wayland compositors
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wev](https://git.sr.ht/~sircmpwn/wev) - A tool for debugging events on a Wayland window, analogous to the X11 tool `xev`
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wlcs](https://github.com/MirServer/wlcs) - A protocol-conformance-verifying test suite usable by Wayland compositor implementors
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlopm](https://git.sr.ht/~leon_plickat/wlopm) - A Wayland output power management tool implementing the `wlr-output-power-management-unstable-v1` protocol
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlrctl](https://git.sr.ht/~brocellous/wlrctl) - A command line utility for miscellaneous wlroots-based Wayland extensions, supporting the `wlr-foreign-toplevel-management-unstable-v1`, `virtual-keyboard-unstable-v1`, and `wlr-virtual-pointer-unstable-v1` protocols
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wtype](https://github.com/atx/wtype) - A Wayland tool that allows keyboard input simulation like [`xdotool`](https://github.com/jordansissel/xdotool)
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [ydotool](https://github.com/ReimuNotMoe/ydotool) - A generic Linux command-line automation tool
+
+WALLPAPER
+---------
+
+- ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [Azote](https://github.com/nwg-piotr/azote) - A GTK 3-based picture browser and background setter supporting all wlroots-based Wayland compositors
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Hyprpaper](https://github.com/hyprwm/hyprpaper) - A wallpaper utility with the ability to dynamically change wallpapers supporting all wlroots-based compositors
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [mpvpaper](https://github.com/GhostNaN/mpvpaper) - A video wallpaper program for wlroots-based Wayland compositors
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swaybg](https://github.com/swaywm/swaybg) - A wallpaper utility for Wayland compositors implementing the `wl_output` version 4 and `wlr-layer-shell-unstable-v1` protocols
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [swww](https://github.com/Horus645/swww) - An animated wallpaper daemon for Wayland, controlled at runtime and implementing the `wlr-layer-shell-unstable-v1` and `xdg-output-unstable-v1` protocols
+- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [Wallutils](https://github.com/xyproto/wallutils) - A set of utilities to manage monitors, resolutions, wallpapers and timed wallpapers
+- ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [Waypaper](https://github.com/anufrievroman/waypaper) - A GUI frontend for swaybg/swww to switch wallpapers
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wbg](https://codeberg.org/dnkl/wbg) - A simple wallpaper application for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wpaperd](https://github.com/danyspin97/wpaperd) - A wallpaper daemon that shows random wallpapers from a directory and changes them after some time
