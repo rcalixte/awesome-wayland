@@ -1,0 +1,26 @@
+---
+name: Link Check
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 9 * * 6'
+  workflow_dispatch:
+env:
+  DISABLE_TELEMETRY: 1
+permissions:
+  contents: read
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          config-file: '.github/workflows/markdown-link-check_config.json'
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
