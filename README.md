@@ -1,5 +1,7 @@
 <h1 align="center">
   <samp style="color: #ffffff; background-color: #ffbc00;">Awesome Wayland</samp>
+
+[![Link Check](https://github.com/rcalixte/awesome-wayland/actions/workflows/link_check.yml/badge.svg?branch=master)](https://github.com/rcalixte/awesome-wayland/actions/workflows/link_check.yml)
 </h1>
 
 A curated list of [Wayland](https://gitlab.freedesktop.org/wayland/wayland) resources. Please investigate these projects on your own before fully committing to them!
