@@ -102,6 +102,7 @@ COMPOSITORS
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [newm-atha](https://git.sr.ht/~atha/newm-atha) - A Wayland compositor written with laptops and touchpads in mind
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [phoc](https://gitlab.gnome.org/World/Phosh/phoc) - A wlroots-based Wayland compositor mostly used on mobile phones
 - ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [river](https://github.com/ifreund/river) - A dynamic tiling Wayland compositor
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [stagen](https://github.com/lidgnulinux/stagen) - An experimental wlroots-based Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [SwayFX](https://github.com/WillPower3309/swayfx) - Sway, but with eye candy
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [sway](https://github.com/swaywm/sway) - An i3-compatible Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tinybox](https://github.com/icedman/tinybox) - A window manager based on tinywl inspired by Blackbox, Fluxbox, and Openbox
