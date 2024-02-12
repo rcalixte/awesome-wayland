@@ -252,6 +252,7 @@ WALLPAPER
 ---------
 
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [Azote](https://github.com/nwg-piotr/azote) - A GTK 3-based picture browser and background setter supporting all wlroots-based Wayland compositors
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [glshell](https://github.com/Duckonaut/glshell) - A shader display implementing the `wlr-layer-shell-unstable-v1` protocol that can be used to create a simple overlay for a Wayland compositor, a status bar, or a wallpaper
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Hyprpaper](https://github.com/hyprwm/hyprpaper) - A wallpaper utility with the ability to dynamically change wallpapers supporting all wlroots-based compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [mpvpaper](https://github.com/GhostNaN/mpvpaper) - A video wallpaper program for wlroots-based Wayland compositors
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [rwpspread](https://github.com/0xk1f0/rwpspread) - A multi-monitor wallpaper utility spanning input wallpapers across all monitors, supporting all wlroots-based Wayland compositors and using `wpaperd` as the wallpaper daemon
