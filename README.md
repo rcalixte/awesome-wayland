@@ -84,6 +84,7 @@ CLIPBOARD MANAGERS
 ------------------
 
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [cliphist](https://github.com/sentriz/cliphist) - A clipboard history manager for Wayland
+- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [clipman](https://github.com/chmouel/clipman) - A simple clipboard manager implementing the `wlr-data-control-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayclip](https://github.com/noocsharp/wayclip) - A Wayland clipboard utility implementing the `wlr-data-control-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Command-line copy/paste utilities for Wayland
 
