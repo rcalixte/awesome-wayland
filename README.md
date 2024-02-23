@@ -188,6 +188,7 @@ ON-SCREEN KEYBOARDS
 SCREEN LOCKING
 --------------
 
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [chayang](https://git.sr.ht/~emersion/chayang) - A screen dimmer that can be used to implement a grace period before locking the session
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [gtklock](https://github.com/jovanlanik/gtklock) - A GTK-based lockscreen for wlroots-based Wayland compositors using the `wlr-layer-shell-unstable-v1` and `wlr-input-inhibitor` Wayland protocols
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Shaderlock](https://github.com/RobinMcCorkell/shaderlock) - A wlroots-based screenlocker for Wayland utilizing GPU shaders
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swayidle](https://github.com/swaywm/swayidle) - An idle management daemon for Wayland which implements the `ext-idle-notify-v1` protocol
