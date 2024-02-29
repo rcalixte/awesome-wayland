@@ -47,6 +47,7 @@ TABLE OF CONTENTS
 BARS
 ----
 
+- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [creek](https://github.com/nmeum/creek) - A dwm-inspired malleable and minimalist status bar for the River compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [deburr](https://github.com/gitRaiku/deburr) - A dwm-like status bar for wlroots-based Wayland compositors
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Eww](https://github.com/elkowar/eww) - A standalone widget system that allows for implementing custom widgets in any window manager
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [gBar](https://github.com/scorpion-26/gBar) - A status bar written with GTK
