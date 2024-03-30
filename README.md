@@ -86,6 +86,7 @@ No Wayland-specific requirements, so you can use your Xorg solution of choice to
 CLIPBOARD MANAGERS
 ------------------
 
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [clapboard](https://github.com/bjesus/clapboard) - A clipboard manager with support for images and saved entries
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [cliphist](https://github.com/sentriz/cliphist) - A clipboard history manager for Wayland
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [clipman](https://github.com/chmouel/clipman) - A simple clipboard manager implementing the `wlr-data-control-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayclip](https://github.com/noocsharp/wayclip) - A Wayland clipboard utility implementing the `wlr-data-control-unstable-v1` protocol
