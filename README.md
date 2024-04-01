@@ -159,6 +159,7 @@ LAUNCHERS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [rofi](https://github.com/lbonn/rofi) - A fork of rofi with Wayland support
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [sirula](https://github.com/DorianRudolph/sirula) - A simple application launcher for Wayland
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tofi](https://github.com/philj56/tofi) - A dynamic menu replacement for dmenu or rofi for wlroots-based Wayland compositors
+- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [walker](https://github.com/abenz1267/walker) - A GTK-based Wayland-native application runner
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [waypiedock](https://gitlab.com/Arnaudv6/waypiedock) - A launcher dock, in the shape of a pie, under the mouse
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wldash](https://github.com/kennylevinsen/wldash) - A dashboard, launcher, or control panel for Wayland, using the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wmenu](https://git.sr.ht/~adnano/wmenu) - A dynamic menu for Sway and wlroots-based compositors inspired by dmenu
