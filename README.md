@@ -36,6 +36,7 @@ TABLE OF CONTENTS
 - [LIBRARIES](#libraries)
 - [NOTIFICATIONS](#notifications)
 - [ON-SCREEN KEYBOARDS](#on-screen-keyboards)
+- [REFERENCE APPLICATIONS](#reference-applications)
 - [SCREEN LOCKING](#screen-locking)
 - [SCREENCASTS](#screencasts)
 - [SCREENSHOTS](#screenshots)
@@ -195,6 +196,13 @@ ON-SCREEN KEYBOARDS
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wf-osk](https://github.com/WayfireWM/wf-osk) - A very, very basic on-screen keyboard using gtkmm and the `virtual-keyboard-unstable-v1` and `wlr-layer-shell-unstable-v1` protocols
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wshowkeys](https://git.sr.ht/~sircmpwn/wshowkeys) - Displays keypresses on screen on Wayland compositors supporting the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wvkbd](https://github.com/jjsullivan5196/wvkbd) - An on-screen keyboard for wlroots-based compositors
+
+REFERENCE APPLICATIONS
+----------------------
+
+These are mainly for developers looking for example implementations.
+
+- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [vkwayland](https://github.com/kdchambers/vkwayland) - A reference application for Vulkan and Wayland
 
 SCREEN LOCKING
 --------------
