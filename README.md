@@ -25,6 +25,7 @@ TABLE OF CONTENTS
 - [SCOPE](#scope)
 - [TABLE OF CONTENTS](#table-of-contents)
 - [BARS](#bars)
+- [BINDINGS](#bindings)
 - [BREAK NOTIFIERS](#break-notifiers)
 - [BRIGHTNESS CONTROL](#brightness-control)
 - [CLIPBOARD MANAGERS](#clipboard-managers)
@@ -66,6 +67,13 @@ BARS
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [YaGoStatus](https://github.com/burik666/yagostatus) - A replacement for i3status
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [yambar](https://codeberg.org/dnkl/yambar) - A lightweight and configurable status panel, inspired by polybar
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [zenway](https://github.com/2hdddg/zenway) - A sway bar alternative that overlays on top of workspaces
+
+BINDINGS
+--------
+
+These are language-specific bindings for use with Wayland development.
+
+- ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [pywayland](https://github.com/flacjacket/pywayland) - A wrapper to the libwayland library
 
 BREAK NOTIFIERS
 ---------------
