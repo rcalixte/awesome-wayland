@@ -67,6 +67,7 @@ BARS
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [YaGoStatus](https://github.com/burik666/yagostatus) - A replacement for i3status
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [yambar](https://codeberg.org/dnkl/yambar) - A lightweight and configurable status panel, inspired by polybar
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [zenway](https://github.com/2hdddg/zenway) - A sway bar alternative that overlays on top of workspaces
+- ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [fabric](https://github.com/Fabric-Development/fabric) - next-gen desktop widgets python framework with GTK+
 
 BINDINGS
 --------
@@ -178,6 +179,7 @@ LAUNCHERS
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wldash](https://github.com/kennylevinsen/wldash) - A dashboard, launcher, or control panel for Wayland, using the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wmenu](https://git.sr.ht/~adnano/wmenu) - A dynamic menu for Sway and wlroots-based compositors inspired by dmenu
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [yofi](https://github.com/l4l/yofi) - A minimalistic menu for Wayland-based compositors
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Anyrun](https://github.com/anyrun-org/anyrun) - A wayland native krunner-like runner, made with customizability in mind
 
 LIBRARIES
 ---------
@@ -198,6 +200,7 @@ NOTIFICATIONS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [fnott](https://codeberg.org/dnkl/fnott) - A keyboard-driven and lightweight notification daemon for wlroots-based Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [mako](https://github.com/emersion/mako) - A lightweight notification daemon for Wayland implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter) - A simple notification daemon with a GTK GUI for notifications and the control center implementing the `wlr-layer-shell-unstable-v1` protocol
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [SwayOSD](https://github.com/ErikReider/SwayOSD) - An OSD window for common actions like volume and capslock.
 
 ON-SCREEN KEYBOARDS
 -------------------
@@ -224,6 +227,8 @@ SCREEN LOCKING
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swaylock-effects](https://github.com/mortie/swaylock-effects) - A fork of swaylock which adds, built-in screenshots, image manipulation, and various other effects like blurring
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swaylock](https://github.com/swaywm/swaylock) - A screen locking utility for Wayland which implements the `ext-idle-notify-v1` protocol protocol
 - ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [waylock](https://codeberg.org/ifreund/waylock) - A small screenlocker for Wayland compositors implementing the `ext-session-lock-v1` protocol
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [hyprlock](https://github.com/hyprwm/hyprlock) - Hyprland's simple, yet multi-threaded and GPU-accelerated screen locking utility which implements the `ext-session-lock-v1` protocol
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [hypridle](https://github.com/hyprwm/hypridle) - Hyprland's idle daemon implementing the `ext-idle-notify-v1` protocol
 
 SCREENCASTS
 -----------
