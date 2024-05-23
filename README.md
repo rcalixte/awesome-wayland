@@ -49,6 +49,7 @@ TABLE OF CONTENTS
 BARS
 ----
 
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) [ags](https://github.com/Aylur/ags) A customizable and extensible shell for wayland 
 - ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [creek](https://github.com/nmeum/creek) - A dwm-inspired malleable and minimalist status bar for the River compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [deburr](https://github.com/gitRaiku/deburr) - A dwm-like status bar for wlroots-based Wayland compositors
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Eww](https://github.com/elkowar/eww) - A standalone widget system that allows for implementing custom widgets in any window manager
