@@ -263,6 +263,7 @@ TOOLS
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [waylevel](https://git.sr.ht/~shinyzenith/waylevel) - A simple debugging tool which prints Wayland toplevels and other compositor specific information
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [waynergy](https://github.com/r-c-f/waynergy) - An implementation of a synergy client for Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [waypipe](https://gitlab.freedesktop.org/mstoeckl/waypipe) - A proxy for Wayland clients enabling application forwarding similar to `ssh -X`
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayst](https://github.com/91861/wayst) - Simple terminal emulator for Wayland and X11 with OpenGL rendering and minimal dependencies.
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayvnc](https://github.com/any1/wayvnc) - A VNC server for wlroots-based Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wev](https://git.sr.ht/~sircmpwn/wev) - A tool for debugging events on a Wayland window, analogous to the X11 tool `xev`
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wlcs](https://github.com/MirServer/wlcs) - A protocol-conformance-verifying test suite usable by Wayland compositor implementors
