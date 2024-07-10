@@ -153,6 +153,7 @@ LAUNCHERS
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) - A GTK-based application grid launcher, button bar, and dmenu for Sway with a best effort for other Wayland environments
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [rofi](https://github.com/lbonn/rofi) - A fork of rofi with Wayland support
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [sirula](https://github.com/DorianRudolph/sirula) - A simple application launcher for Wayland
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [sysmenu](https://github.com/System64fumo/sysmenu) - Simple program launcher written in gtkmm 4
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tofi](https://github.com/philj56/tofi) - A dynamic menu replacement for dmenu or rofi for wlroots-based Wayland compositors
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [walker](https://github.com/abenz1267/walker) - A GTK-based Wayland-native application runner
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [waypiedock](https://gitlab.com/Arnaudv6/waypiedock) - A launcher dock, in the shape of a pie, under the mouse
@@ -310,6 +311,7 @@ WIDGETS (BARS, PANELS, ETC.)
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [nwg-panel](https://github.com/nwg-piotr/nwg-panel) - A GTK 3-based panel for Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Root Bar](https://hg.sr.ht/~scoopta/rootbar) - A bar for wlroots-based Wayland compositors such as sway
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [SFWBar](https://github.com/LBCrion/sfwbar) - A flexible taskbar application for Wayland compositors, designed with a stacking layout in mind
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [sysbar](https://github.com/System64fumo/sysbar) - Modular status bar for wayland
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [syshud](https://github.com/System64fumo/syshud) - A system status indicator implementing the `gtk4-layer-shell` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Wapanel](https://github.com/Firstbober/wapanel) - A simple panel/status bar/task bar for stacking Wayland-based desktops
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Waybar](https://github.com/Alexays/Waybar) - A highly customizable bar for Sway and wlroots-based compositors
