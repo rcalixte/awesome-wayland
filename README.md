@@ -172,6 +172,7 @@ LIBRARIES
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swc](https://github.com/michaelforney/swc) - A small Wayland compositor implemented as a library
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wld](https://github.com/michaelforney/wld) - A drawing library that targets Wayland
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/) - Pluggable, composable, and unopinionated modules for building a Wayland compositor
+- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [zig-wlroots](https://codeberg.org/ifreund/zig-wlroots) - Bindings to wlroots for Zig for developing Wayland compositors and clients
 
 NOTIFICATIONS
 -------------
