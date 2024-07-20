@@ -204,6 +204,7 @@ SCREEN LOCKING
 --------------
 
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [chayang](https://git.sr.ht/~emersion/chayang) - A screen dimmer that can be used to implement a grace period before locking the session
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [cthulock](https://github.com/FriederHannenheim/cthulock) - A Slint-based customizable screen-locker for Wayland compositors implementing the `ext-session-lock-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [gtklock](https://github.com/jovanlanik/gtklock) - A GTK-based lockscreen for wlroots-based Wayland compositors using the `wlr-layer-shell-unstable-v1` and `wlr-input-inhibitor` Wayland protocols
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [hypridle](https://github.com/hyprwm/hypridle) - A wlroots-based idle management daemon implementing the `ext-idle-notify-v1` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [hyprlock](https://github.com/hyprwm/hyprlock) - A multi-threaded and GPU-accelerated wlroots-based screen locking utility implementing the `ext-session-lock-v1` and `wlr-screencopy-unstable-v1` protocols
@@ -231,6 +232,7 @@ SCREENSHOTS
 
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dulcepan](https://codeberg.org/vyivel/dulcepan) - A screenshot tool for wlroots-based Wayland compositors, implementing the `wlr-layer-shell-unstable-v1` and `wlr-screencopy-unstable-v1` protocols
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [grim](https://git.sr.ht/~emersion/grim) - Grab images from a Wayland compositor
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [haruhishot](https://github.com/Decodetalkers/haruhishot) - A screenshot utility for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` and `wlr-screencopy-unstable-v1` protocols
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [samurai-select](https://github.com/Samudevv/samurai-select) - A screen selection tool for wlroots-based Wayland compositors implementing `wlr-layer-shell-unstable-v1`
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Satty](https://github.com/gabm/Satty) - A screenshot annotation tool inspired by Swappy and Flameshot
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [shotman](https://git.sr.ht/~whynothugo/shotman) - A screenshot GUI for Wayland compositors implementing `wlr-layer-shell-unstable-v1`, `wlr-screencopy-unstable-v1`, and `single-pixel-buffer-v1` protocols
@@ -284,6 +286,7 @@ WALLPAPER
 ---------
 
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [Azote](https://github.com/nwg-piotr/azote) - A GTK 3-based picture browser and background setter supporting all wlroots-based Wayland compositors
+- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [beanbag](https://codeberg.org/bwbuhse/beanbag) - A lightweight wallpaper application designed for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [glshell](https://github.com/Duckonaut/glshell) - A shader display implementing the `wlr-layer-shell-unstable-v1` protocol that can be used to create a simple overlay for a Wayland compositor, a status bar, or a wallpaper
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Hyprpaper](https://github.com/hyprwm/hyprpaper) - A wallpaper utility with the ability to dynamically change wallpapers supporting all wlroots-based compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [mpvpaper](https://github.com/GhostNaN/mpvpaper) - A video wallpaper program for wlroots-based Wayland compositors
