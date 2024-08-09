@@ -86,7 +86,7 @@ COMPOSITORS
 
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Cagebreak](https://github.com/project-repo/cagebreak) - A Wayland tiling compositor inspired by Ratpoison
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dwl](https://codeberg.org/dwl/dwl) - A wlroots-based rewrite of DWM for Wayland
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [foxwhale](https://github.com/malcolmstill/foxwhale) - A tiling Wayland compositor based on wlroots
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [foxwhale](https://github.com/malcolmstill/foxwhale) - A tiling Wayland compositor based on wlroots
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [gamescope](https://github.com/ValveSoftware/gamescope) - A wlroots-based Wayland compositor designed for SteamOS
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23f7df1e) [Greenfield](https://github.com/udevbe/greenfield) - An HTML5 Wayland compositor that runs directly in the browser
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [hikari](https://hub.darcs.net/raichoo/hikari) - A hybrid stacking/tiling Wayland compositor based on wlroots
@@ -103,7 +103,7 @@ COMPOSITORS
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [newm-atha](https://git.sr.ht/~atha/newm-atha) - A Wayland compositor written with laptops and touchpads in mind
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [niri](https://github.com/YaLTeR/niri) - A scrollable tiling Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [phoc](https://gitlab.gnome.org/World/Phosh/phoc) - A wlroots-based Wayland compositor mostly used on mobile phones
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [river](https://codeberg.org/river/river) - A dynamic tiling Wayland compositor
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [river](https://codeberg.org/river/river) - A dynamic tiling Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [stagen](https://github.com/lidgnulinux/stagen) - An experimental wlroots-based Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [SwayFX](https://github.com/WillPower3309/swayfx) - Sway, but with eye candy
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [sway](https://github.com/swaywm/sway) - An i3-compatible Wayland compositor
@@ -173,7 +173,7 @@ LIBRARIES
 - ![Dart](https://img.shields.io/badge/dart-29b6f6?style=plastic&logo=dart&logoColor=01579b) [wayland-dart](https://github.com/kingwill101/wayland-dart) - A Dart implementation of the Wayland client protocols
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wld](https://github.com/michaelforney/wld) - A drawing library that targets Wayland
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/) - Pluggable, composable, and unopinionated modules for building a Wayland compositor
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [zig-wlroots](https://codeberg.org/ifreund/zig-wlroots) - Bindings to wlroots for Zig for developing Wayland compositors and clients
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [zig-wlroots](https://codeberg.org/ifreund/zig-wlroots) - Bindings to wlroots for Zig for developing Wayland compositors and clients
 
 NOTIFICATIONS
 -------------
@@ -198,8 +198,8 @@ REFERENCE APPLICATIONS
 These are mainly for developers looking for example implementations.
 
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [go-wayland](https://github.com/rajveermalviya/go-wayland) - A basic implementation of the Wayland protocol
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [vkwayland](https://github.com/kdchambers/vkwayland) - A reference application for Vulkan and Wayland
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [zig-wayland](https://codeberg.org/ifreund/zig-wayland) - A basic implementation of the Wayland protocol for developing Wayland compositors and clients, including examples
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [vkwayland](https://github.com/kdchambers/vkwayland) - A reference application for Vulkan and Wayland
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [zig-wayland](https://codeberg.org/ifreund/zig-wayland) - A basic implementation of the Wayland protocol for developing Wayland compositors and clients, including examples
 
 SCREEN LOCKING
 --------------
@@ -213,7 +213,7 @@ SCREEN LOCKING
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swayidle](https://github.com/swaywm/swayidle) - An idle management daemon for Wayland which implements the `ext-idle-notify-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swaylock-effects](https://github.com/mortie/swaylock-effects) - A fork of swaylock which adds, built-in screenshots, image manipulation, and various other effects like blurring
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swaylock](https://github.com/swaywm/swaylock) - A screen locking utility for Wayland which implements the `ext-idle-notify-v1` protocol protocol
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [waylock](https://codeberg.org/ifreund/waylock) - A small screen-locker for Wayland compositors implementing the `ext-session-lock-v1` protocol
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [waylock](https://codeberg.org/ifreund/waylock) - A small screen-locker for Wayland compositors implementing the `ext-session-lock-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlock](https://codeberg.org/sewn/wlock) - A simple screen-locker for Wayland compositors that support the `ext-session-lock-v1` protocol
 
 SCREENCASTS
@@ -236,7 +236,7 @@ SCREENSHOTS
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [haruhishot](https://github.com/Decodetalkers/haruhishot) - A screenshot utility for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` and `wlr-screencopy-unstable-v1` protocols
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [samurai-select](https://github.com/Samudevv/samurai-select) - A screen selection tool for wlroots-based Wayland compositors implementing `wlr-layer-shell-unstable-v1`
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Satty](https://github.com/gabm/Satty) - A screenshot annotation tool inspired by Swappy and Flameshot
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [Seto](https://github.com/unixpariah/Seto) - A hardware-accelerated and keyboard-driven screen selection tool implementing the `wlr-layer-shell-unstable-v1` protocol
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [Seto](https://github.com/unixpariah/Seto) - A hardware-accelerated and keyboard-driven screen selection tool implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [shotman](https://git.sr.ht/~whynothugo/shotman) - A screenshot GUI for Wayland compositors implementing `wlr-layer-shell-unstable-v1`, `wlr-screencopy-unstable-v1`, and `single-pixel-buffer-v1` protocols
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [slurp](https://github.com/emersion/slurp) - Select a region in a Wayland compositor and print it to the standard output
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swappy](https://github.com/jtheoof/swappy) - A Wayland-native snapshot editing tool, inspired by Snappy on macOS
@@ -271,7 +271,7 @@ TOOLS
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [waylevel](https://git.sr.ht/~shinyzenith/waylevel) - A simple debugging tool which prints Wayland toplevels and other compositor specific information
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [waynergy](https://github.com/r-c-f/waynergy) - An implementation of a synergy client for Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [waypipe](https://gitlab.freedesktop.org/mstoeckl/waypipe) - A proxy for Wayland clients enabling application forwarding similar to `ssh -X`
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [wayprompt](https://git.sr.ht/~leon_plickat/wayprompt) - A multi-purpose prompt tool for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [wayprompt](https://git.sr.ht/~leon_plickat/wayprompt) - A multi-purpose prompt tool for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayvnc](https://github.com/any1/wayvnc) - A VNC server for wlroots-based Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wev](https://git.sr.ht/~sircmpwn/wev) - A tool for debugging events on a Wayland window, analogous to the X11 tool `xev`
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wlcs](https://github.com/MirServer/wlcs) - A protocol-conformance-verifying test suite usable by Wayland compositor implementors
@@ -289,7 +289,7 @@ WALLPAPER
 ---------
 
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [Azote](https://github.com/nwg-piotr/azote) - A GTK 3-based picture browser and background setter supporting all wlroots-based Wayland compositors
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [beanbag](https://codeberg.org/bwbuhse/beanbag) - A lightweight wallpaper application designed for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [beanbag](https://codeberg.org/bwbuhse/beanbag) - A lightweight wallpaper application designed for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [glshell](https://github.com/Duckonaut/glshell) - A shader display implementing the `wlr-layer-shell-unstable-v1` protocol that can be used to create a simple overlay for a Wayland compositor, a status bar, or a wallpaper
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Hyprpaper](https://github.com/hyprwm/hyprpaper) - A wallpaper utility with the ability to dynamically change wallpapers supporting all wlroots-based compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [mpvpaper](https://github.com/GhostNaN/mpvpaper) - A video wallpaper program for wlroots-based Wayland compositors
@@ -306,7 +306,7 @@ WIDGETS (BARS, PANELS, ETC.)
 
 - ![TypeScript](https://img.shields.io/badge/typescript-%233178c6.svg?style=plastic&logo=typescript&logoColor=%23faf9f8) [ags](https://github.com/Aylur/ags) - A standalone library for creating GTK-based widgets
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [chocobar](https://codeberg.org/notchoc/chocobar) - A simple status bar for wlroots-based Wayland compositors
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [creek](https://github.com/nmeum/creek) - A dwm-inspired malleable and minimalist status bar for the River compositor
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [creek](https://github.com/nmeum/creek) - A dwm-inspired malleable and minimalist status bar for the River compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dam](https://codeberg.org/sewn/dam) - A small status bar designed for River and wlroots-based Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [deburr](https://github.com/gitRaiku/deburr) - A dwm-like status bar for wlroots-based Wayland compositors
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Eww](https://github.com/elkowar/eww) - A standalone widget system that allows for implementing custom widgets in any window manager
@@ -315,8 +315,8 @@ WIDGETS (BARS, PANELS, ETC.)
 - ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [Hybridbar](https://github.com/hcsubser/hybridbar) - A top panel forked from wingpanel for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [i3status-rust](https://github.com/greshake/i3status-rust) - A resource-friendly and feature-rich replacement for i3status
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Ironbar](https://github.com/JakeStanger/ironbar) - A customizable and feature-rich GTK bar for wlroots-based compositors
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [levee](https://github.com/nmeum/levee) - A fork of levee designed to be more malleable by allowing arbitrary text rather than built-in modules
-- ![Zig](https://img.shields.io/badge/Zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [levee](https://git.sr.ht/~andreafeletto/levee) - A status bar for the river Wayland compositor, providing support for workspace tags, volume, battery capacity, and screen brightness via built-in modules
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [levee](https://github.com/nmeum/levee) - A fork of levee designed to be more malleable by allowing arbitrary text rather than built-in modules
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [levee](https://git.sr.ht/~andreafeletto/levee) - A status bar for the river Wayland compositor, providing support for workspace tags, volume, battery capacity, and screen brightness via built-in modules
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [nwg-panel](https://github.com/nwg-piotr/nwg-panel) - A GTK 3-based panel for Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Root Bar](https://hg.sr.ht/~scoopta/rootbar) - A bar for wlroots-based Wayland compositors such as sway
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [SFWBar](https://github.com/LBCrion/sfwbar) - A flexible taskbar application for Wayland compositors, designed with a stacking layout in mind
