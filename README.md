@@ -116,6 +116,7 @@ COMPOSITORS
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Wayfire](https://github.com/WayfireWM/wayfire) - A 3D wlroots-based Wayland compositor inspired by Compiz
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Weston](https://gitlab.freedesktop.org/wayland/weston/) - A Wayland compositor designed for correctness, reliability, predictability, and performance
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlmaker](https://github.com/phkaeser/wlmaker) - A Wayland compositor inspired by Window Maker
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Woodland](https://github.com/DiogenesN/woodland) - A minimal lightweight wlroots-based window-stacking compositor for Wayland, inspired by Wayfire and TinyWl
 
 DISPLAY CONFIGURATION
 ---------------------
