@@ -313,7 +313,7 @@ WIDGETS (BARS, PANELS, ETC.)
 ----------------------------
 
 - ![TypeScript](https://img.shields.io/badge/typescript-%233178c6.svg?style=plastic&logo=typescript&logoColor=%23faf9f8) [ags](https://github.com/Aylur/ags) - A standalone library for creating GTK-based widgets
-- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [beanclock](https://codeberg.org/bwbuhse/beanclock) - A simple clock overlay for Wayland compositors
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [beanclock](https://codeberg.org/bwbuhse/beanclock) - A simple clock overlay for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [chocobar](https://codeberg.org/notchoc/chocobar) - A simple status bar for wlroots-based Wayland compositors
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [creek](https://github.com/nmeum/creek) - A dwm-inspired fork of levee and minimalist status bar for the River compositor designed to be more malleable by allowing arbitrary text rather than built-in modules
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dam](https://codeberg.org/sewn/dam) - A small status bar designed for River and wlroots-based Wayland compositors
