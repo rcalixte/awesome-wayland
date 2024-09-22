@@ -267,6 +267,7 @@ THEMING
 TOOLS
 -----
 
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [clipcell](https://github.com/divadiahim/clipcell) - A clipboard manager with support for text and image preview for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Door Knocker](https://codeberg.org/tytan652/door-knocker) - A simple tool to check the availability of XDG portals in a running session
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [hyprpicker](https://github.com/hyprwm/hyprpicker) - A wlroots-compatible Wayland color picker
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [lan-mouse](https://github.com/feschber/lan-mouse) - A mouse and keyboard sharing software
