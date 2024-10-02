@@ -251,6 +251,7 @@ SCREENSHOTS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swappy](https://github.com/jtheoof/swappy) - A Wayland-native snapshot editing tool, inspired by Snappy on macOS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Taiga](https://hg.sr.ht/~scoopta/taiga) - An animated screenshot program for wlroots-based Wayland compositors
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Watershot](https://github.com/Kirottu/watershot) - A simple Wayland-native screenshot tool inspired by Flameshot
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Waysip](https://github.com/waycrate/waysip) - Wayland native area selector for compositors implementing zwlr_layer_shell.
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Wayshot](https://git.sr.ht/~shinyzenith/wayshot) - A screenshot tool for wlroots-based compositors implementing `wlr-screencopy-unstable-v1`
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Weye](https://github.com/Yakkhini/Weye) - A lightweight screenshot tool for sway users
 
@@ -258,6 +259,7 @@ SESSION MANAGEMENT
 ------------------
 
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [SwayAudioIdleInhibit](https://github.com/ErikReider/SwayAudioIdleInhibit) - Prevents swayidle from sleeping while any application is outputting or receiving audio, implementing the `idle-inhibit-unstable-v1` protocol
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Wleave](https://github.com/AMNatty/wleave) - A Wayland-native logout script written in Gtk3
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlogout](https://github.com/ArtsyMacaw/wlogout) - A Wayland-based logout menu
 
 THEMING
