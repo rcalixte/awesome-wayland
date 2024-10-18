@@ -137,7 +137,7 @@ EMULATION
 
 IMAGE VIEWING
 -------------
-
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [imv](https://git.sr.ht/~exec64/imv) - command line image viewer intended for use with tiling window managers.
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Swayimg](https://github.com/artemsen/swayimg) - An image viewer for Sway/Wayland
 
 LAUNCHERS
