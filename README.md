@@ -128,6 +128,7 @@ DISPLAY CONFIGURATION
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wayout](https://git.sr.ht/~shinyzenith/wayout) - A simple output management tool for wlroots-based compositors implementing `wlr-output-management-unstable-v1`
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wdisplays](https://github.com/artizirk/wdisplays) - A GUI application for configuring displays in wlroots-based compositors implementing the `wlr-output-management-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlay](https://github.com/atx/wlay) - Graphical output management for Wayland
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlopm](https://sr.ht/~leon_plickat/wlopm/) -`wlopm` (Wayland output power management) a simple client implementing zwlr-output-power-management-v1.
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlr-randr](https://git.sr.ht/~emersion/wlr-randr) - A utility to manage outputs of wlroots-based Wayland compositors, inspired by xrandr
 
 EMULATION
