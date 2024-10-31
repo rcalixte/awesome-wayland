@@ -262,7 +262,6 @@ SESSION MANAGEMENT
 
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [nwg-bar](https://github.com/nwg-piotr/nwg-bar) - A Wayland-based logout menu implementing the `gtk3-layer-shell` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [SwayAudioIdleInhibit](https://github.com/ErikReider/SwayAudioIdleInhibit) - Prevents swayidle from sleeping while any application is outputting or receiving audio, implementing the `idle-inhibit-unstable-v1` protocol
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Vigiland](https://github.com/Jappie3/vigiland) - Inhibit idle behaviour of a Wayland compositor
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wleave](https://github.com/AMNatty/wleave) - A Wayland-based logout menu implementing the `gtk3-layer-shell` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlogout](https://github.com/ArtsyMacaw/wlogout) - A Wayland-based logout menu
 
@@ -281,6 +280,7 @@ TOOLS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [lswt](https://git.sr.ht/~leon_plickat/lswt) - List Wayland toplevels in both human readable and machine parsable formats via the `wlr-foreign-toplevel-management-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [scenefx](https://github.com/wlrfx/scenefx) - A drop-in replacement for the wlroots scene-graph API that allows Wayland compositors to render surfaces with eye-candy effects
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [sway-fader](https://github.com/mgnsk/sway-fader) - A tool that can be used to control transparency for focus and window events
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Vigiland](https://github.com/Jappie3/vigiland) - An application implementing the `idle-inhibit-unstable-v1` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Waycheck](https://gitlab.freedesktop.org/serebit/waycheck) - A simple application that displays all of the Wayland protocols supported and unsupported by the running compositor
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [waycorner](https://github.com/AndreasBackx/waycorner) - Hot corners for wlroots-based Wayland compositors implementing the `xdg-output-unstable-v1` protocol
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [waylevel](https://git.sr.ht/~shinyzenith/waylevel) - A simple debugging tool which prints Wayland toplevels and other compositor specific information
