@@ -201,9 +201,9 @@ ON-SCREEN KEYBOARDS
 -------------------
 
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wf-osk](https://github.com/WayfireWM/wf-osk) - A very, very basic on-screen keyboard using gtkmm and the `virtual-keyboard-unstable-v1` and `wlr-layer-shell-unstable-v1` protocols
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wkeys](https://github.com/ptazithos/wkeys) - An on-screen keyboard featuring a configurable layout and style for Wayland compositors supporting the `gtk4-layer-shell` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wshowkeys](https://git.sr.ht/~sircmpwn/wshowkeys) - Displays keypresses on screen on Wayland compositors supporting the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wvkbd](https://github.com/jjsullivan5196/wvkbd) - An on-screen keyboard for wlroots-based compositors
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wkeys](https://github.com/ptazithos/wkeys) - An on-screen keyboard for wayland with easy-to-config layout and style.
 
 REFERENCE APPLICATIONS
 ----------------------
