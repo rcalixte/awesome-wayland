@@ -185,6 +185,7 @@ LIBRARIES
 - ![OCaml](https://img.shields.io/badge/ocaml-%23ededed.svg?style=plastic&logo=ocaml&logoColor=ec670f) [ocaml-wayland](https://github.com/talex5/ocaml-wayland) - An implementation of the Wayland protocol in OCaml
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [smithay](https://github.com/Smithay/smithay) - A compositor library for Wayland
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swc](https://github.com/michaelforney/swc) - A small Wayland compositor implemented as a library
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Swingby](https://github.com/aspschn/swingby) - A small GUI library for Wayland client programming
 - ![Dart](https://img.shields.io/badge/dart-29b6f6?style=plastic&logo=dart&logoColor=01579b) [wayland-dart](https://github.com/kingwill101/wayland-dart) - A Dart implementation of the Wayland client protocols
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [way-z](https://github.com/psnszsn/way-z) - A client library and widget toolkit for wlroots-based Wayland applications written in Zig
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wld](https://github.com/michaelforney/wld) - A drawing library that targets Wayland
