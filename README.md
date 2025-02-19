@@ -145,6 +145,7 @@ IMAGE VIEWING
 -------------
 
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Swayimg](https://github.com/artemsen/swayimg) - An image viewer for Sway/Wayland
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wu](https://codeberg.org/kaleido/wuimg) - A fast and colorspace-aware image viewer
 
 LAUNCHERS
 ---------
