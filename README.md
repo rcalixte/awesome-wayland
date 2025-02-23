@@ -120,6 +120,7 @@ COMPOSITORS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [volare](https://codeberg.org/raboof/volare) - A tiling, tabbed Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Waybox](https://github.com/wizbright/waybox) - An openbox clone on Wayland
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Wayfire](https://github.com/WayfireWM/wayfire) - A 3D wlroots-based Wayland compositor inspired by Compiz
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayward](https://github.com/varmd/wayward) - A lightweight desktop shell compatible with Weston
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Weston](https://gitlab.freedesktop.org/wayland/weston/) - A Wayland compositor designed for correctness, reliability, predictability, and performance
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlmaker](https://github.com/phkaeser/wlmaker) - A Wayland compositor inspired by Window Maker
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Woodland](https://github.com/DiogenesN/woodland) - A minimal and lightweight wlroots-based stacking compositor, inspired by Wayfire and TinyWL
