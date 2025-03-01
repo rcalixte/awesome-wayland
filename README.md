@@ -273,7 +273,6 @@ SESSION MANAGEMENT
 ------------------
 
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [nwg-bar](https://github.com/nwg-piotr/nwg-bar) - A Wayland-based logout menu implementing the `gtk3-layer-shell` protocol
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [pwrmenu](https://github.com/kamilernerd/pwrmenu) - A Wayland-based logout menu implementing the `gtk4-layer-shell` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [SwayAudioIdleInhibit](https://github.com/ErikReider/SwayAudioIdleInhibit) - Prevents swayidle from sleeping while any application is outputting or receiving audio, implementing the `idle-inhibit-unstable-v1` protocol
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wleave](https://github.com/AMNatty/wleave) - A Wayland-based logout menu implementing the `gtk3-layer-shell` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlogout](https://github.com/ArtsyMacaw/wlogout) - A Wayland-based logout menu
