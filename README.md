@@ -205,6 +205,7 @@ NOTIFICATIONS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [fnott](https://codeberg.org/dnkl/fnott) - A keyboard-driven and lightweight notification daemon for wlroots-based Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [luft](https://codeberg.org/bogdan-the-great/luft) - A lightweight notification daemon for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [mako](https://github.com/emersion/mako) - A lightweight notification daemon for Wayland implementing the `wlr-layer-shell-unstable-v1` protocol
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Soft OSD](https://github.com/SergioRibera/soft_osd) - Amazing and Soft animated standalone notification daemon or SOSD
 - ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter) - A simple notification daemon with a GTK GUI for notifications and the control center implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [SwayOSD](https://github.com/ErikReider/SwayOSD) - A GTK-based OSD window for common actions like volume and Caps Lock
 
