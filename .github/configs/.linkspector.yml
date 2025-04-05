@@ -1,0 +1,7 @@
+---
+aliveStatusCodes:
+  - 200
+files:
+  - README.md
+ignorePatterns:
+  - pattern: "^https://github.com/owner/repo"
