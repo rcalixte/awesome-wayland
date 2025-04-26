@@ -260,7 +260,7 @@ SCREENSHOTS
 -----------
 
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dulcepan](https://codeberg.org/vyivel/dulcepan) - A screenshot tool for wlroots-based Wayland compositors, implementing the `wlr-layer-shell-unstable-v1` and `wlr-screencopy-unstable-v1` protocols
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [grim](https://git.sr.ht/~emersion/grim) - Grab images from a Wayland compositor
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [grim](https://gitlab.freedesktop.org/emersion/grim) - Grab images from a Wayland compositor
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [haruhishot](https://github.com/Decodetalkers/haruhishot) - A screenshot utility for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` and `wlr-screencopy-unstable-v1` protocols
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [samurai-select](https://github.com/Samudevv/samurai-select) - A screen selection tool for wlroots-based Wayland compositors implementing `wlr-layer-shell-unstable-v1`
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Satty](https://github.com/gabm/Satty) - A screenshot annotation tool inspired by Swappy and Flameshot
