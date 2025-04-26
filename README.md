@@ -131,7 +131,7 @@ COMPOSITORS
 DISPLAY CONFIGURATION
 ---------------------
 
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Kanshi](https://git.sr.ht/~emersion/kanshi) - A dynamic display configuration tool for Wayland similar to autorandr, usable on Wayland compositors supporting the `wlr-output-management` protocol
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Kanshi](https://gitlab.freedesktop.org/emersion/kanshi) - A dynamic display configuration tool for Wayland similar to autorandr, usable on Wayland compositors supporting the `wlr-output-management` protocol
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [nwg-displays](https://github.com/nwg-piotr/nwg-displays) - An output management utility for sway and Hyprland, inspired by wdisplays and wlay
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [Wallutils](https://github.com/xyproto/wallutils) - A set of utilities to handle monitors, resolutions, wallpapers, and timed wallpapers
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wayland-displays](https://github.com/heyzec/wayland-displays) - A GUI and CLI tool for managing display outputs on wlroots-based Wayland compositors implementing the `wlr-output-management-unstable-v1` protocol
