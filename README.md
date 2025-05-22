@@ -226,7 +226,7 @@ REFERENCE APPLICATIONS
 
 These are mainly for developers looking for example implementations.
 
-- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [go-wayland](https://github.com/rajveermalviya/go-wayland) - A basic implementation of the Wayland protocol
+- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [go-wayland](https://github.com/MatthiasKunnen/go-wayland) - A basic implementation of the Wayland protocol
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [vkwayland](https://github.com/kdchambers/vkwayland) - A reference application for Vulkan and Wayland
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [wayland-py](https://github.com/aslpavel/wayland-py) - A pure Python implementation of a Wayland client
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [zig-wayland](https://codeberg.org/ifreund/zig-wayland) - A basic implementation of the Wayland protocol for developing Wayland compositors and clients, including examples
