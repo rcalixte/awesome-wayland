@@ -1,8 +1,9 @@
 ---
 aliveStatusCodes:
   - 200
-  - 418
 files:
   - README.md
+followRedirects: false
 ignorePatterns:
+  - pattern: "^https://cdn.rawgit.com"
   - pattern: "^https://github.com/owner/repo"
