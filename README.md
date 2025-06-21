@@ -56,7 +56,7 @@ These are language-specific bindings for use with Wayland development.
 BREAK NOTIFIERS
 ---------------
 
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Ianny](https://github.com/zer0-x/ianny) - Periodically informs user to take breaks by keeping track of usage patterns
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Ianny](https://github.com/zefr0x/ianny) - Periodically informs user to take breaks by keeping track of usage patterns
 
 BRIGHTNESS CONTROL
 ------------------
