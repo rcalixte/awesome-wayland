@@ -206,7 +206,7 @@ LIBRARIES
 NOTIFICATIONS
 -------------
 
-- ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [Avizo](https://github.com/misterdanb/avizo) - A simple notification daemon, mainly intended to be used for multimedia keys
+- ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [Avizo](https://github.com/heyjuvi/avizo) - A simple notification daemon, mainly intended to be used for multimedia keys
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dunst](https://github.com/dunst-project/dunst) - A highly configurable and lightweight notification daemon
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [fnott](https://codeberg.org/dnkl/fnott) - A keyboard-driven and lightweight notification daemon for wlroots-based Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [luft](https://codeberg.org/bogdan-the-great/luft) - A lightweight notification daemon for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
