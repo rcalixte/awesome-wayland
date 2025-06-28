@@ -17,7 +17,7 @@ SCOPE
 -----
 
 > [!IMPORTANT]
-> The scope of this repository aims to capture applications, libraries, etc. that are **designed** to support the Wayland ecosystem. This does not include existing applications that have implemented support for Wayland. That list is being maintained at [mpsq/arewewaylandyet](https://github.com/mpsq/arewewaylandyet) which is the repository for [arewewaylandyet.com](https://arewewaylandyet.com/).
+> The scope of this repository aims to capture applications, libraries, etc. that are **designed** to support the Wayland ecosystem. This does not include existing applications that have implemented support for Wayland. That list is being maintained at [mpsq/arewewaylandyet](https://github.com/mpsq/arewewaylandyet) which is the repository for [arewewaylandyet.com](https://arewewaylandyet.com). An updated list is also available at [gianklug/wearewaylandnow](https://github.com/gianklug/wearewaylandnow) which is the repository for [wearewaylandnow.com](https://wearewaylandnow.com).
 
 TABLE OF CONTENTS
 -----------------
