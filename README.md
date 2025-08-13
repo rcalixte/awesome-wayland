@@ -249,6 +249,7 @@ SCREEN LOCKING
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swaylock-effects](https://github.com/mortie/swaylock-effects) - A fork of swaylock which adds, built-in screenshots, image manipulation, and various other effects like blurring
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swaylock](https://github.com/swaywm/swaylock) - A screen locking utility for Wayland which implements the `ext-idle-notify-v1` protocol protocol
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [waylock](https://codeberg.org/ifreund/waylock) - A small screen-locker for Wayland compositors implementing the `ext-session-lock-v1` protocol
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlgblock](https://github.com/AdoPi/wlgblock) - An emulator-based screen-locker for Wayland compositors implementing the `ext-session-lock-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlock](https://codeberg.org/sewn/wlock) - A simple screen-locker for Wayland compositors that support the `ext-session-lock-v1` protocol
 
 SCREENCASTS
