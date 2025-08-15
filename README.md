@@ -111,10 +111,10 @@ COMPOSITORS
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [miracle-wm](https://github.com/miracle-wm-org/miracle-wm) - A Mir-based tiling Wayland compositor
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Miriway](https://github.com/Miriway/Miriway) - A Mir-based Wayland compositor
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [newm-atha](https://git.sr.ht/~atha/newm-atha) - A Wayland compositor written with laptops and touchpads in mind
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [niri](https://github.com/YaLTeR/niri) - A scrollable tiling Wayland compositor
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [niri](https://github.com/YaLTeR/niri) - A Smithay-based scrollable tiling Wayland compositor
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [Nyctal](https://github.com/s-rah/nyctal) - A tiny, minimal-dependency Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [phoc](https://gitlab.gnome.org/World/Phosh/phoc) - A wlroots-based Wayland compositor mostly used on mobile phones
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [pinnacle](https://github.com/pinnacle-comp/pinnacle) - A wlroots-based Wayland compositor inspired by AwesomeWM
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [pinnacle](https://github.com/pinnacle-comp/pinnacle) - A Smithay-based Wayland compositor inspired by AwesomeWM
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [river](https://codeberg.org/river/river) - A dynamic tiling Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [scroll](https://github.com/dawsers/scroll) - A wlroots-based scrollable Wayland compositor forked from sway with a layout similar to PaperWM and niri
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [stagen](https://github.com/lidgnulinux/stagen) - An experimental wlroots-based Wayland compositor
