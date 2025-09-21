@@ -206,6 +206,7 @@ LIBRARIES
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swc](https://github.com/michaelforney/swc) - A small Wayland compositor implemented as a library
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Swingby](https://github.com/aspschn/swingby) - A small GUI library for Wayland client programming
 - ![Dart](https://img.shields.io/badge/dart-29b6f6?style=plastic&logo=dart&logoColor=01579b) [wayland-dart](https://github.com/kingwill101/wayland-dart) - A Dart implementation of the Wayland client protocols
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [waylib](https://github.com/vioken/waylib) - A Wayland compositor development library based on wlroots and Qt Quick
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [way-z](https://github.com/psnszsn/way-z) - A client library and widget toolkit for wlroots-based Wayland applications written in Zig
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wld](https://github.com/michaelforney/wld) - A drawing library that targets Wayland
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wleaf](https://github.com/markbolhuis/wleaf) - A C23 abstraction library for writing Wayland clients
