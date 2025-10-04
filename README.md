@@ -68,7 +68,7 @@ No Wayland-specific requirements, so you can use your Xorg solution of choice to
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Luminance](https://github.com/sidevesh/Luminance) - A simple GTK application to control brightness of displays including external displays supporting DDC/CI
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wl-gammactl](https://github.com/mischw/wl-gammactl) - A GTK application to set contrast, brightness, and gamma using the `wlr-gamma-control` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) - A day/night gamma adjustments for Wayland compositors supporting `wlr-gamma-control-unstable-v1` and `xdg-output-unstable-v1` protocols
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wluma](https://github.com/maximbaz/wluma) - A tool for wlroots-based compositors that automatically adjust screen brightness based on screen contents and ambient light
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wluma](https://github.com/max-baz/wluma) - A tool for wlroots-based compositors that automatically adjust screen brightness based on screen contents and ambient light
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [yabd](https://github.com/tbrugere/yabd) - A simple brightness daemon compatible with Wayland compositors
 
 CLIPBOARD MANAGERS
