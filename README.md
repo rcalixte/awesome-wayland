@@ -203,6 +203,7 @@ LIBRARIES
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Louvre](https://github.com/CuarzoSoftware/Louvre) - A library designed for building Wayland compositors in C++
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Mir](https://github.com/canonical/mir) - A set of libraries for building Wayland-based shells
 - ![OCaml](https://img.shields.io/badge/ocaml-%23ededed.svg?style=plastic&logo=ocaml&logoColor=ec670f) [ocaml-wayland](https://github.com/talex5/ocaml-wayland) - An implementation of the Wayland protocol in OCaml
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [shimizu](https://git.sr.ht/~geemili/shimizu) - A library for interfacing with the Wayland protocol
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [smithay](https://github.com/Smithay/smithay) - A compositor library for Wayland
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [swc](https://github.com/michaelforney/swc) - A small Wayland compositor implemented as a library
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Swingby](https://github.com/aspschn/swingby) - A small GUI library for Wayland client programming
