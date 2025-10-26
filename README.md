@@ -124,6 +124,7 @@ COMPOSITORS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [sway](https://github.com/swaywm/sway) - An i3-compatible Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tinybox](https://github.com/icedman/tinybox) - A window manager based on tinywl inspired by Blackbox, Fluxbox, and Openbox
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tinywl+](https://github.com/keshto/tinywl_plus) - A stacking Wayland compositor based on tinywl and a great starting place for compositor development
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23f7df1e) [term.everything](https://github.com/mmulet/term.everything) - An Wayland compositor for the terminal locally and over ssh.
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [treeland](https://github.com/linuxdeepin/treeland) - A wlroots-based Wayland compositor also based on Qt Quick
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [turtile](https://github.com/migueldeoleiros/turtile) - A simple and customizable wlroots-based tiling compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [velox](https://github.com/michaelforney/velox) - A simple window manager based on swc, inspired by dwm and xmonad
