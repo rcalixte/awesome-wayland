@@ -366,6 +366,7 @@ WALLPAPER
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [Waypaper](https://github.com/anufrievroman/waypaper) - A GUI frontend for swaybg/swww to switch wallpapers
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wbg](https://codeberg.org/dnkl/wbg) - A simple wallpaper application for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wpaperd](https://github.com/danyspin97/wpaperd) - A wallpaper daemon that shows random wallpapers from a directory and changes them after some time
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [yin](https://github.com/SaverinOnRails/yin) - An efficient animated wallpaper daemon for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 
 WIDGETS (BARS, PANELS, ETC.)
 ----------------------------
