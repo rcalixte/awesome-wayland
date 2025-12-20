@@ -53,6 +53,7 @@ BINDINGS
 
 These are language-specific bindings for use with Wayland development.
 
+- ![Java](https://img.shields.io/badge/java-%23ffffff.svg?style=plastic&logo=openjdk&logoColor=%23000000) [nylon-bindings](https://github.com/klozovin/nylon/tree/master/bindings) - Bindings for wlroots
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [pywayland](https://github.com/flacjacket/pywayland) - A wrapper to the libwayland library
 
 BREAK NOTIFIERS
