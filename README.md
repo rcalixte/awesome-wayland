@@ -99,7 +99,6 @@ COMPOSITORS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [hikari](https://hub.darcs.net/raichoo/hikari) - A hybrid stacking/tiling Wayland compositor based on wlroots
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Hopalong](https://github.com/iridescent-desktop/hopalong) - A simple Wayland compositor with a feature set comparable to XFWM
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Hyprland](https://github.com/hyprwm/Hyprland) - A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [japokwm](https://github.com/werererer/japokwm) - A wlroots-based dynamic tiling Wayland compositor based around creating layouts
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Jay](https://github.com/mahkoh/jay) - A tiling Wayland compositor inspired by i3wm
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [kiwmi](https://github.com/buffet/kiwmi) - A fully programmable Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [labwc](https://github.com/labwc/labwc) - A wlroots-based stacking compositor for Wayland, inspired by openbox
