@@ -138,6 +138,7 @@ COMPOSITORS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [volare](https://codeberg.org/raboof/volare) - A tiling, tabbed Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Waybox](https://github.com/wizbright/waybox) - An openbox clone on Wayland
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Wayfire](https://github.com/WayfireWM/wayfire) - A 3D wlroots-based Wayland compositor inspired by Compiz
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [way-shell](https://github.com/ldelossa/way-shell) - A desktop shell based on GTK 4 for wlroots-based Wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayward](https://github.com/varmd/wayward) - A lightweight desktop shell compatible with Weston
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Weston](https://gitlab.freedesktop.org/wayland/weston/) - A Wayland compositor designed for correctness, reliability, predictability, and performance
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wio](https://gitlab.com/Rubo/wio) - A wlroots-based Wayland compositor inspired by Plan 9's Rio
@@ -174,7 +175,6 @@ LAUNCHERS
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Anyrun](https://github.com/anyrun-org/anyrun) - A GTK-based Wayland-native launcher, customizable via CSS
 - ![Nim](https://img.shields.io/badge/nim-%23171921.svg?style=plastic&logo=nim&logoColor=ffe953) [basket](https://github.com/xTrayambak/basket) - A minimal application launcher for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [bemenu](https://github.com/Cloudef/bemenu) - A dynamic menu library and client program inspired by dmenu
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [cosmic-launcher](https://github.com/pop-os/cosmic-launcher) - WIP launcher for the COSMIC desktop, implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [diowapplauncher](https://github.com/DiogenesN/diowapplauncher) - A simple application launcher for Wayland compositors implementing the `xdg-shell` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [diowmenu](https://github.com/DiogenesN/diowmenu) - A simple quick launch menu for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dmenu-wayland](https://github.com/nyyManni/dmenu-wayland) - A wlroots-based dynamic menu for Wayland
@@ -204,7 +204,7 @@ LAUNCHERS
 LIBRARIES
 ---------
 
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Casilda](https://gitlab.gnome.org/jpu/casilda) - A simple Wayland compositor widget for Gtk 4 which can be used to embed other processes windows in your Gtk 4 application.
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Casilda](https://gitlab.gnome.org/jpu/casilda) - A simple Wayland compositor widget for GTK 4 which can be used to embed other processes windows in applications based on GTK 4
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [client-toolkit](https://github.com/Smithay/client-toolkit) - A toolkit for writing Wayland clients in Rust
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [glace](https://github.com/Fabric-Development/glace) - A GTK-based library that aids in the management of Wayland clients such as docks and desktop widgets
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [gtk4-layer-shell](https://github.com/wmww/gtk4-layer-shell) - A library to create panels and other desktop components for Wayland using GTK 4 and the `wlr-layer-shell-unstable-v1` protocol
@@ -353,10 +353,8 @@ TOOLS
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wlprobe](https://github.com/PolyMeilex/wlprobe) - A utility for displaying information about the protocols supported by a Wayland compositor in a JSON format
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlrctl](https://git.sr.ht/~brocellous/wlrctl) - A command-line utility for miscellaneous wlroots-based Wayland extensions, supporting the `wlr-foreign-toplevel-management-unstable-v1`, `virtual-keyboard-unstable-v1`, and `wlr-virtual-pointer-unstable-v1` protocols
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wlr-which-key](https://github.com/MaxVerevkin/wlr-which-key) - A keymap manager for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wprs](https://github.com/wayland-transpositor/wprs) - Remote desktop access for remote Wayland (and X11, via XWayland) applications, alternative for [xpra](https://en.wikipedia.org/wiki/Xpra)
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wtype](https://github.com/atx/wtype) - A Wayland tool that allows keyboard input simulation like [`xdotool`](https://github.com/jordansissel/xdotool)
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [xwayland-run](https://gitlab.freedesktop.org/ofourdan/xwayland-run) - A set of utilities revolving around running `Xwayland` and various Wayland compositors headless
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [xwayland-satellite](https://github.com/Supreeeme/xwayland-satellite) - Grants rootless Xwayland integration to any Wayland compositor implementing `xdg-shell`
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [ydotool](https://github.com/ReimuNotMoe/ydotool) - A generic Linux command-line automation tool
 
 WALLPAPER
@@ -414,7 +412,6 @@ WIDGETS (BARS, PANELS, ETC.)
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Waybar](https://github.com/Alexays/Waybar) - A highly customizable bar for Sway and wlroots-based compositors
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [way-edges](https://github.com/way-edges/way-edges) - A lightweight application providing off-screen widgets hidden along the edges of the screen
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayloadmon](https://git.sr.ht/~leon_plickat/wayloadmon) - A load monitor widget for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [way-shell](https://github.com/ldelossa/way-shell) - A Gnome-like shell for wayland compositors
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlclock](https://git.sr.ht/~leon_plickat/wlclock) - An analog clock for wlroots-based Wayland compositors, implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wl_shimeji](https://github.com/CluelessCatBurger/wl_shimeji) - A widget overlay for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wob](https://github.com/francma/wob) - A lightweight overlay volume/backlight/progress/anything bar for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
