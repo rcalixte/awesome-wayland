@@ -115,6 +115,7 @@ COMPOSITORS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff)&nbsp;![Lisp](https://img.shields.io/badge/lisp-%23000.svg?style=plastic&logo=lisp&logoColor=fff) [mahogany](https://github.com/stumpwm/mahogany) - A StumpWM-like Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [mangowc](https://github.com/DreamMaoMao/mangowc) - A dwl-inspired Wayland compositor with lightweight animations and customizable layouts
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [marshmallow](https://codeberg.org/MrBrownFR/marshmallow) - A Wayland compositor with tablets and phones in mind
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [Mezzaluna](https://github.com/MezzalunaWM/Mezzaluna) - A minimal wlroots-based Wayland compositor configured using Lua
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [miracle-wm](https://github.com/miracle-wm-org/miracle-wm) - A Mir-based tiling Wayland compositor
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Miriway](https://github.com/Miriway/Miriway) - A Mir-based Wayland compositor
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [musa](https://git.sr.ht/~mainiomano/musa) - A Wayland compositor based on wlroots focusing on multiseat functionality
