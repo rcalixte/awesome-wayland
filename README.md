@@ -194,6 +194,7 @@ LAUNCHERS
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer) - An application launcher for wlroots-based Wayland compositors implementing the `gtk4-layer-shell` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) - A GTK-based application grid launcher, button bar, and dmenu for Sway with a best effort for other Wayland environments
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [nwg-menu](https://github.com/nwg-piotr/nwg-menu) - A simple menu implementing the `gtk3-layer-shell` protocol
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [rofi](https://github.com/davatorium/rofi) - A window switcher, application launcher and dmenu replacement 
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [sirula](https://github.com/DorianRudolph/sirula) - A simple application launcher for Wayland
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [sysmenu](https://github.com/System64fumo/sysmenu) - A simple program launcher for wlroots-based Wayland compositors, implementing the `gtk4-layer-shell` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tofi](https://github.com/philj56/tofi) - A dynamic menu replacement for dmenu or rofi for wlroots-based Wayland compositors
@@ -202,6 +203,7 @@ LAUNCHERS
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [waypiedock](https://gitlab.com/Arnaudv6/waypiedock) - A launcher dock, in the shape of a pie, under the mouse
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wldash](https://github.com/kennylevinsen/wldash) - A dashboard, launcher, or control panel for Wayland, using the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wmenu](https://codeberg.org/adnano/wmenu) - A dynamic menu for Sway and wlroots-based compositors inspired by dmenu
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wofi](https://github.com/SimplyCEO/wofi) - A launcher/menu program for wlroots based wayland compositor.
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [yofi](https://github.com/l4l/yofi) - A minimalistic menu for Wayland-based compositors
 
 LIBRARIES
