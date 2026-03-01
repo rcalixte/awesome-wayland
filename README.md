@@ -104,6 +104,7 @@ COMPOSITORS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [hikari](https://hub.darcs.net/raichoo/hikari) - A hybrid stacking/tiling Wayland compositor based on wlroots
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Hopalong](https://github.com/iridescent-desktop/hopalong) - A simple Wayland compositor with a feature set comparable to XFWM
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Hyprland](https://github.com/hyprwm/Hyprland) - A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [IonWL](https://codeberg.org/ideasman42/IonWL) - A manual tiling Smithay-based Wayland compositor inspired by Ion3
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Jay](https://github.com/mahkoh/jay) - A tiling Wayland compositor inspired by i3wm
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [kawa](https://github.com/DeedleFake/kawa) - A wlroots-based Wayland compositor inspired by Plan 9's Rio
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [kiwmi](https://github.com/buffet/kiwmi) - A fully programmable Wayland compositor
