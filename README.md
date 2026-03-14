@@ -101,7 +101,6 @@ COMPOSITORS
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [gamescope](https://github.com/ValveSoftware/gamescope) - A wlroots-based Wayland compositor designed for SteamOS
 - ![Nim](https://img.shields.io/badge/nim-%23171921.svg?style=plastic&logo=nim&logoColor=ffe953) [gogh](https://github.com/xTrayambak/gogh) - A lightweight Wayland compositor using Louvre
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23f7df1e) [Greenfield](https://github.com/udevbe/greenfield) - An HTML5 Wayland compositor that runs directly in the browser
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [hikari](https://hub.darcs.net/raichoo/hikari) - A hybrid stacking/tiling Wayland compositor based on wlroots
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Hopalong](https://github.com/iridescent-desktop/hopalong) - A simple Wayland compositor with a feature set comparable to XFWM
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Hyprland](https://github.com/hyprwm/Hyprland) - A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [IonWL](https://codeberg.org/ideasman42/IonWL) - A manual tiling Smithay-based Wayland compositor inspired by Ion3
