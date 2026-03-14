@@ -16,7 +16,7 @@ jobs:
   linkspector-check-links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: umbrelladocs/action-linkspector@v1
         with:
           config_file: .github/configs/.linkspector.yml
