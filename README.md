@@ -89,6 +89,7 @@ CLIPBOARD MANAGERS
 COMPOSITORS
 -----------
 
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [bwm](https://github.com/dy-tea/bwm) - A Wayland compositor with floating, tiling, and scrolling layouts, inspired by bspwm
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Cagebreak](https://github.com/project-repo/cagebreak) - A Wayland tiling compositor inspired by Ratpoison
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Cage](https://github.com/cage-kiosk/cage) - A Wayland compositor that runs a single application in maximized mode, particularly suitable for kiosk applications
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [cosmic-comp](https://github.com/pop-os/cosmic-comp) - A Smithay-based Wayland compositor designed for the COSMIC desktop environment
