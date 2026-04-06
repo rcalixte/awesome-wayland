@@ -429,4 +429,5 @@ WIDGETS (BARS, PANELS, ETC.)
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wtw](https://codeberg.org/sewn/wtw) - A simple text widget for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [YaGoStatus](https://github.com/burik666/yagostatus) - A replacement for i3status
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [zbar](https://codeberg.org/nwormek/zbar) - A simple status bar for dwl implementing the `wlr-layer-shell-unstable-v1` and `dwl-ipc-unstable-v2` protocols
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Wayland protocol workflow orchestration, automated display server management, and multi-agent coordination. MIT licensed.
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [zenway](https://github.com/2hdddg/zenway) - A sway bar alternative that overlays on top of workspaces
