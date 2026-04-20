@@ -126,7 +126,6 @@ COMPOSITORS
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [niri](https://github.com/niri-wm/niri) - A Smithay-based scrollable tiling Wayland compositor
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [Nyctal](https://github.com/s-rah/nyctal) - A tiny, minimal-dependency Wayland compositor
 - ![Kotlin](https://img.shields.io/badge/kotlin-%23ffffff.svg?style=plastic&logo=kotlin&logoColor=%237f52ff) [nylon-compositor](https://github.com/klozovin/nylon/tree/master/compositor) - A minimal wlroots-based Wayland compositor
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [phoc](https://gitlab.gnome.org/World/Phosh/phoc) - A wlroots-based Wayland compositor mostly used on mobile phones
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [pinnacle](https://github.com/pinnacle-comp/pinnacle) - A Smithay-based Wayland compositor inspired by AwesomeWM
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [river-classic](https://codeberg.org/river/river-classic) - A fork of river 0.3 intended for users who do not want river 0.4+ features and breaking changes
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [river](https://codeberg.org/river/river) - A non-monolithic Wayland compositor
@@ -211,7 +210,6 @@ LAUNCHERS
 LIBRARIES
 ---------
 
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Casilda](https://gitlab.gnome.org/jpu/casilda) - A simple Wayland compositor widget for GTK 4 which can be used to embed other processes windows in applications based on GTK 4
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [client-toolkit](https://github.com/Smithay/client-toolkit) - A toolkit for writing Wayland clients in Rust
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [glace](https://github.com/Fabric-Development/glace) - A GTK-based library that aids in the management of Wayland clients such as docks and desktop widgets
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [gtk4-layer-shell](https://github.com/wmww/gtk4-layer-shell) - A library to create panels and other desktop components for Wayland using GTK 4 and the `wlr-layer-shell-unstable-v1` protocol
@@ -251,8 +249,6 @@ NOTIFICATIONS
 ON-SCREEN KEYBOARDS
 -------------------
 
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [squeekboard](https://gitlab.gnome.org/World/Phosh/squeekboard) - An on-screen keyboard for Wayland compositors supporting the `virtual-keyboard-unstable-v1` and `gtk3-layer-shell` protocols
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Stevia](https://gitlab.gnome.org/World/Phosh/stevia) - An on-screen keyboard for Wayland compositors supporting the `virtual-keyboard-unstable-v1`, `wlr-data-control-unstable-v1`, and `wlr-layer-shell-unstable-v1` protocols
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wf-osk](https://github.com/WayfireWM/wf-osk) - A very, very basic on-screen keyboard using gtkmm and the `virtual-keyboard-unstable-v1` and `wlr-layer-shell-unstable-v1` protocols
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wkeys](https://github.com/ptazithos/wkeys) - An on-screen keyboard featuring a configurable layout and style for Wayland compositors supporting the `gtk4-layer-shell` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wshowkeys](https://git.sr.ht/~sircmpwn/wshowkeys) - Displays keypresses on screen on Wayland compositors supporting the `wlr-layer-shell-unstable-v1` protocol
@@ -291,7 +287,6 @@ SCREENCASTS
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [Kooha](https://github.com/SeaDve/Kooha) - Minimalistic screen recorder for Wayland sessions implementing the `org.freedesktop.impl.portal.ScreenCast` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [ssr-wlroots](https://github.com/foxcpp/ssr-wlroots) - A fork of SimpleScreenRecorder with support for wlroots-based compositors (more specifically, those that support `wlr-screencopy-unstable-v1` and `xdg-output-unstable-v1`) - doesn't support recording area selection and has issues with multiple screens
 - ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [wayfarer](https://github.com/stronnag/wayfarer) - A screen recorder for GNOME/Wayland/PipeWire implementing the `org.freedesktop.impl.portal.ScreenCast` protocol
-- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wayrec](https://invent.kde.org/bharadwaj-raju/wayrec) - A simple screen recorder using the `org.freedesktop.impl.portal.ScreenCast` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wf-recorder](https://github.com/ammen99/wf-recorder) - A utility program for screen recording of wlroots-based compositors (more specifically, those that support `wlr-screencopy-unstable-v1` and `xdg-output-unstable-v1`)
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wl-mirror](https://github.com/Ferdi265/wl-mirror) - A simple Wayland output mirror client
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlrobs](https://hg.sr.ht/~scoopta/wlrobs) - A plugin for OBS Studio that allows screen capture on wlroots-based Wayland compositors
