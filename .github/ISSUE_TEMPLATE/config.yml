@@ -1,6 +1,6 @@
 ---
 blank_issues_enabled: true
 contact_links:
-  - name: 💬 Are we Wayland yet?
-    url: https://github.com/mpsq/arewewaylandyet
+  - name: 💬 We are Wayland now!
+    url: https://github.com/gianklug/wearewaylandnow
     about: Consider this instead if an application has *added* support for Wayland. 🤔
