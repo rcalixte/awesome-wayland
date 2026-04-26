@@ -47,6 +47,7 @@ TABLE OF CONTENTS
 - [TOOLS](#tools)
 - [WALLPAPER](#wallpaper)
 - [WIDGETS (BARS, PANELS, ETC.)](#widgets-bars-panels-etc)
+- [WINDOW MANAGERS](#window-managers)
 
 BINDINGS
 --------
@@ -134,11 +135,9 @@ COMPOSITORS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [SwayFX](https://github.com/WillPower3309/swayfx) - Sway, but with eye candy
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [sway](https://github.com/swaywm/sway) - An i3-compatible Wayland compositor
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [tiley](https://github.com/creamIcec/tiley) - A customizable tiling Wayland compositor based on Louvre
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tinybox](https://github.com/icedman/tinybox) - A window manager based on tinywl inspired by Blackbox, Fluxbox, and Openbox
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tinywl+](https://github.com/keshto/tinywl_plus) - A stacking Wayland compositor based on tinywl and a great starting place for compositor development
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [treeland](https://github.com/linuxdeepin/treeland) - A wlroots-based Wayland compositor also based on Qt Quick
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [turtile](https://github.com/migueldeoleiros/turtile) - A simple and customizable wlroots-based tiling compositor
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [velox](https://github.com/michaelforney/velox) - A simple window manager based on swc, inspired by dwm and xmonad
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Vivarium](https://github.com/inclement/vivarium) - A dynamic tiling Wayland compositor using wlroots, with desktop semantics inspired by xmonad
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [volare](https://codeberg.org/raboof/volare) - A tiling, tabbed Wayland compositor
 - ![V](https://img.shields.io/badge/v-%23fff.svg?style=plastic&logo=v&logoColor=4a607e) [vwm](https://github.com/dy-tea/vwm) - A wlroots-based Wayland compositor
@@ -428,3 +427,11 @@ WIDGETS (BARS, PANELS, ETC.)
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [YaGoStatus](https://github.com/burik666/yagostatus) - A replacement for i3status
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [zbar](https://codeberg.org/nwormek/zbar) - A simple status bar for dwl implementing the `wlr-layer-shell-unstable-v1` and `dwl-ipc-unstable-v2` protocols
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [zenway](https://github.com/2hdddg/zenway) - A sway bar alternative that overlays on top of workspaces
+
+WINDOW MANAGERS
+---------------
+
+A number of window managers for Wayland are being developed using the [`river-window-management-v1` protocol](https://isaacfreund.com/docs/wayland/river-window-management-v1/). That list is being maintained within [River's wiki](https://codeberg.org/river/wiki/src/branch/main/pages/wm-list.md).
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tinybox](https://github.com/icedman/tinybox) - A window manager based on tinywl inspired by Blackbox, Fluxbox, and Openbox
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [velox](https://github.com/michaelforney/velox) - A simple window manager based on swc, inspired by dwm and xmonad
