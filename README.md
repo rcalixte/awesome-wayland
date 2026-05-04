@@ -238,6 +238,7 @@ NOTIFICATIONS
 -------------
 
 - ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic&logo=vala&logoColor=fff) [Avizo](https://github.com/heyjuvi/avizo) - A simple notification daemon, mainly intended to be used for multimedia keys
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [awob](https://github.com/jmylchreest/awob) - A Wayland OSD bar; drop-in replacement for `wob` with KDL-based theming, typed IPC, and a listener ecosystem implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dunst](https://github.com/dunst-project/dunst) - A highly configurable and lightweight notification daemon
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [fnott](https://codeberg.org/dnkl/fnott) - A keyboard-driven and lightweight notification daemon for wlroots-based Wayland compositors
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [histui](https://github.com/jmylchreest/histui) - A themeable notification daemon with TUI and CLI options for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
