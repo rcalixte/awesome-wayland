@@ -324,6 +324,7 @@ THEMING
 -------
 
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [nwg-look](https://github.com/nwg-piotr/nwg-look) - A GTK 3 settings editor designed to work properly in a wlroots-based environment
+- ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [tinct](https://github.com/jmylchreest/tinct) - A plugin-based theme/templating tool inspired by Pywal and Matugen with multiple input mechanisms
 
 TOOLS
 -----
