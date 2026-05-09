@@ -135,6 +135,7 @@ COMPOSITORS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [SwayFX](https://github.com/WillPower3309/swayfx) - Sway, but with eye candy
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [sway](https://github.com/swaywm/sway) - An i3-compatible Wayland compositor
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [tiley](https://github.com/creamIcec/tiley) - A customizable tiling Wayland compositor based on Louvre
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [tinywl](https://codeberg.org/ifreund/zig-wlroots/src/branch/master/tinywl) - A re-implementation of tinywl
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [tinywl+](https://github.com/keshto/tinywl_plus) - A stacking Wayland compositor based on tinywl and a great starting place for compositor development
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [treeland](https://github.com/linuxdeepin/treeland) - A wlroots-based Wayland compositor also based on Qt Quick
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [turtile](https://github.com/migueldeoleiros/turtile) - A simple and customizable wlroots-based tiling compositor
