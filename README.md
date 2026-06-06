@@ -90,12 +90,12 @@ CLIPBOARD MANAGERS
 COMPOSITORS
 -----------
 
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [bwm](https://github.com/dy-tea/bwm) - A Wayland compositor with floating, tiling, and scrolling layouts, inspired by bspwm
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Cagebreak](https://github.com/project-repo/cagebreak) - A Wayland tiling compositor inspired by Ratpoison
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Cage](https://github.com/cage-kiosk/cage) - A Wayland compositor that runs a single application in maximized mode, particularly suitable for kiosk applications
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [cosmic-comp](https://github.com/pop-os/cosmic-comp) - A Smithay-based Wayland compositor designed for the COSMIC desktop environment
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [croissant](https://codeberg.org/vyivel/croissant) - A wlroots-based stacking Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [CwC](https://github.com/Cudiph/cwcwm) - A highly configurable wlroots-based tiling window manager, inspired by AwesomeWM
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [doors](https://github.com/dy-tea/doors) - A Wayland compositor with floating, tiling, and scrolling layouts, inspired by bspwm
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dwl](https://codeberg.org/dwl/dwl) - A wlroots-based rewrite of DWM for Wayland
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [fht-compositor](https://github.com/nferhat/fht-compositor) - A dynamic tiling Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [fluxland](https://github.com/ecliptik/fluxland) - A lightweight Wayland compositor inspired by Fluxbox
