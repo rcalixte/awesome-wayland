@@ -123,6 +123,7 @@ COMPOSITORS
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [miracle-wm](https://github.com/miracle-wm-org/miracle-wm) - A Mir-based tiling Wayland compositor
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Miriway](https://github.com/Miriway/Miriway) - A Mir-based Wayland compositor
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [musa](https://git.sr.ht/~mainiomano/musa) - A Wayland compositor based on wlroots focusing on multiseat functionality
+- ![TypeScript](https://img.shields.io/badge/typescript-%233178c6.svg?style=plastic&logo=typescript&logoColor=%23faf9f8) [myde](https://github.com/xushengfeng/myde) - A Wayland compositor written in Electron and a desktop environment framework developable with web technologies
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [newm-atha](https://git.sr.ht/~atha/newm-atha) - A Wayland compositor written with laptops and touchpads in mind
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [niri](https://github.com/niri-wm/niri) - A Smithay-based scrollable tiling Wayland compositor
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [Nyctal](https://github.com/s-rah/nyctal) - A tiny, minimal-dependency Wayland compositor
