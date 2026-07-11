@@ -6,4 +6,5 @@ files:
 followRedirects: false
 ignorePatterns:
   - pattern: "^https://cdn.rawgit.com"
+  - pattern: "^https://codeberg.org"
   - pattern: "^https://github.com/owner/repo"
