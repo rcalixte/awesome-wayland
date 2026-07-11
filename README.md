@@ -128,6 +128,7 @@ COMPOSITORS
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [Nyctal](https://github.com/s-rah/nyctal) - A tiny, minimal-dependency Wayland compositor
 - ![Kotlin](https://img.shields.io/badge/kotlin-%23ffffff.svg?style=plastic&logo=kotlin&logoColor=%237f52ff) [nylon-compositor](https://github.com/klozovin/nylon/tree/master/compositor) - A minimal wlroots-based Wayland compositor
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [pinnacle](https://github.com/pinnacle-comp/pinnacle) - A Smithay-based Wayland compositor inspired by AwesomeWM
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [pudu](https://github.com/vodkanull/pudu) - A minimal tiling Wayland compositor
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [river-classic](https://codeberg.org/river/river-classic) - A fork of river 0.3 intended for users who do not want river 0.4+ features and breaking changes
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [river](https://codeberg.org/river/river) - A non-monolithic Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [scroll](https://github.com/dawsers/scroll) - A wlroots-based scrollable Wayland compositor forked from sway with a layout similar to PaperWM and niri
