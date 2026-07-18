@@ -153,6 +153,7 @@ COMPOSITORS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wless](https://github.com/qaqland/wless) - A wlroots-based window-less Wayland compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlmaker](https://github.com/phkaeser/wlmaker) - A Wayland compositor inspired by Window Maker
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Woodland](https://github.com/DiogenesN/woodland) - A minimal and lightweight wlroots-based stacking compositor, inspired by Wayfire and TinyWL
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [xerium](https://codeberg.org/xerium-wm/xerium) - A fast and lightweight Wayland compositor
 
 DISPLAY CONFIGURATION
 ---------------------
