@@ -300,6 +300,7 @@ SCREENCASTS
 SCREENSHOTS
 -----------
 
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [cullpp](https://codeberg.org/qel/cullpp) -  Minimal wlroots-based region selector, implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dulcepan](https://codeberg.org/vyivel/dulcepan) - A screenshot tool for wlroots-based Wayland compositors, implementing the `wlr-layer-shell-unstable-v1` and `wlr-screencopy-unstable-v1` protocols
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [grabit](https://github.com/Creationsss/grabit) - A screenshot, screen-recording, and OCR tool for wlroots-based Wayland compositors implementing the `wlr-data-control-unstable-v1`, `wlr-layer-shell-unstable-v1`, and `wlr-screencopy-unstable-v1` protocols
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [grim](https://gitlab.freedesktop.org/emersion/grim) - Grab images from a Wayland compositor
