@@ -337,6 +337,7 @@ TOOLS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [clipcell](https://github.com/divadiahim/clipcell) - A clipboard manager with support for text and image preview for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [dd99 Wayland Library](https://github.com/Delta-dev-99/dd99_wayland) - A Wayland protocol scanner
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [Door Knocker](https://codeberg.org/tytan652/door-knocker) - A simple tool to check the availability of XDG portals in a running session
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [hwatu](https://github.com/hongnoul/hwatu) - A daemon-based WebKitGTK browser designed for tiling Wayland compositors with ~13ms window spawn from a warm daemon
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [hyprpicker](https://github.com/hyprwm/hyprpicker) - A wlroots-compatible Wayland color picker
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [lan-mouse](https://github.com/feschber/lan-mouse) - A mouse and keyboard sharing software
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [ls-wayland](https://gitlab.com/robustus/ls-wayland) - List the Wayland global environment
