@@ -43,6 +43,7 @@ TABLE OF CONTENTS
 - [SCREENCASTS](#screencasts)
 - [SCREENSHOTS](#screenshots)
 - [SESSION MANAGEMENT](#session-management)
+- [TERMINAL EMULATORS](#terminal-emulators)
 - [THEMING](#theming)
 - [TOOLS](#tools)
 - [WALLPAPER](#wallpaper)
@@ -328,6 +329,12 @@ SESSION MANAGEMENT
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [SwayAudioIdleInhibit](https://github.com/ErikReider/SwayAudioIdleInhibit) - Prevents swayidle from sleeping while any application is outputting or receiving audio, implementing the `idle-inhibit-unstable-v1` protocol
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wleave](https://github.com/AMNatty/wleave) - A Wayland-based logout menu implementing the `gtk3-layer-shell` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlogout](https://github.com/ArtsyMacaw/wlogout) - A Wayland-based logout menu
+
+TERMINAL EMULATORS
+------------------
+
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [foot](https://codeberg.org/dnkl/foot) - A fast, lightweight and minimalistic Wayland terminal emulator
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [Shitty](https://github.com/pg83/shitty) - A fast terminal emulator with native Wayland and Vulkan backends
 
 THEMING
 -------
