@@ -9,3 +9,4 @@ ignorePatterns:
   - pattern: "^https://codeberg.org"
   - pattern: "^https://git.sr.ht"
   - pattern: "^https://github.com/owner/repo"
+  - pattern: "^https://gitlab.freedesktop.org"
