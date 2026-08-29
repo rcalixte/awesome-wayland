@@ -297,7 +297,7 @@ SCREENCASTS
 - ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wf-recorder](https://github.com/ammen99/wf-recorder) - A utility program for screen recording of wlroots-based compositors (more specifically, those that support `wlr-screencopy-unstable-v1` and `xdg-output-unstable-v1`)
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wl-mirror](https://github.com/Ferdi265/wl-mirror) - A simple Wayland output mirror client
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wlrobs](https://hg.sr.ht/~scoopta/wlrobs) - A plugin for OBS Studio that allows screen capture on wlroots-based Wayland compositors
-- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wl-screenrec](https://github.com/russelltg/wl-screenrec) - A screen recorder for wlroots-based Wayland compositors leveraging DMA-BUF and the DRM and implementing the `wlr-output-management-unstable-v1` and `wlr-screencopy-unstable-v1` protocols
+- ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wl-screenrec](https://github.com/rosalyntg/wl-screenrec) - A screen recorder for wlroots-based Wayland compositors leveraging DMA-BUF and the DRM and implementing the `wlr-output-management-unstable-v1` and `wlr-screencopy-unstable-v1` protocols
 
 SCREENSHOTS
 -----------
