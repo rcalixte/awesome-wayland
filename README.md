@@ -81,6 +81,7 @@ CLIPBOARD MANAGERS
 
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [clapboard](https://github.com/bjesus/clapboard) - A clipboard manager with support for images and saved entries
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [cliphist](https://github.com/sentriz/cliphist) - A clipboard history manager for Wayland
+- ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [clipward](https://codeberg.org/zacoons/clipward) - A simple clipboard history manager implementing the `ext-data-control-v1` protocol
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [gemclip](https://codeberg.org/novenary/gemclip) - A simple clipboard utility for Wayland implementing the `wlr-data-control-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wayclip](https://github.com/noocsharp/wayclip) - A Wayland clipboard utility implementing the `wlr-data-control-unstable-v1` protocol
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Command-line copy/paste utilities for Wayland
