@@ -174,6 +174,7 @@ DISPLAY CONFIGURATION
 EMULATION
 ---------
 
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [pbemu](https://codeberg.org/datyoma/pbemu) - A container-based approach to run PocketBook firmware on GNU/Linux
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [Waydroid](https://github.com/waydroid/waydroid) - A container-based approach to boot a full Android system on GNU/Linux
 
 IMAGE VIEWING
