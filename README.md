@@ -387,6 +387,7 @@ TOOLS
 WALLPAPER
 ---------
 
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [asciipaper](https://github.com/cYoren/asciipaper) - Live, mouse-interactive ASCII wallpapers drawn by a native GPU engine implementing the `wlr-layer-shell-unstable-v1` protocol, with 38 one-click styles and porting of pictures, GIFs and videos
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [awww](https://codeberg.org/LGFae/awww) - An animated wallpaper daemon for Wayland, controlled at runtime and implementing the `wlr-layer-shell-unstable-v1` and `xdg-output-unstable-v1` protocols
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [Azote](https://github.com/nwg-piotr/azote) - A GTK 3-based picture browser and background setter supporting all wlroots-based Wayland compositors
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [beanbag](https://codeberg.org/bwbuhse/beanbag) - A lightweight wallpaper application designed for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
