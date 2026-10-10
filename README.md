@@ -54,6 +54,7 @@ BINDINGS
 
 These are language-specific bindings for use with Wayland development.
 
+- ![Nim](https://img.shields.io/badge/nim-%23171921.svg?style=plastic&logo=nim&logoColor=ffe953) [nayland](https://github.com/nim-windowing/nayland) - Wrappers for the libwayland library
 - ![Odin](https://img.shields.io/badge/odin-3882d2?style=plastic&logo=odin&logoColor=ffffff) [odin-wayland](https://github.com/yasinkaraaslan/odin-wayland) - Bindings for creating Wayland clients
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [pywayland](https://github.com/flacjacket/pywayland) - A wrapper to the libwayland library
 - ![Java](https://img.shields.io/badge/java-%23ffffff.svg?style=plastic&logo=openjdk&logoColor=%23000000) [wlroots4j](https://github.com/klozovin/nylon/tree/master/wlroots4j) - Bindings for wlroots
