@@ -342,6 +342,7 @@ SESSION MANAGEMENT
 THEMING
 -------
 
+- ![TypeScript](https://img.shields.io/badge/typescript-%233178c6.svg?style=plastic&logo=typescript&logoColor=%23faf9f8) [hypr-theme-studio](https://github.com/apravint/hypr-theme-studio) - A real-time theme manager and 3D WebGL palette customizer for Hyprland with zero-restart socket IPC and Waybar/GTK synchronization
 - ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic&logo=go&logoColor=fff) [nwg-look](https://github.com/nwg-piotr/nwg-look) - A GTK 3 settings editor designed to work properly in a wlroots-based environment
 
 TOOLS
