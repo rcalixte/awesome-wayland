@@ -103,7 +103,7 @@ COMPOSITORS
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [doors](https://github.com/dy-tea/doors) - A Wayland compositor with floating, tiling, and scrolling layouts, inspired by bspwm
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [dwl](https://codeberg.org/dwl/dwl) - A wlroots-based rewrite of DWM for Wayland
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [fht-compositor](https://github.com/nferhat/fht-compositor) - A dynamic tiling Wayland compositor
-- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [flake-wm](https://github.com/flake-wm/flake-wm) - A simple wlroots-based Wayland compositor originally forked from Kylin Wayland Compositor
+- ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [flake-wm](https://github.com/Flake-Shell/flake-wm) - A simple wlroots-based Wayland compositor originally forked from Kylin Wayland Compositor
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [fluxland](https://github.com/ecliptik/fluxland) - A lightweight Wayland compositor inspired by Fluxbox
 - ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic&logo=zig&logoColor=fff) [foxwhale](https://github.com/malcolmstill/foxwhale) - A tiling Wayland compositor based on wlroots
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [G0wm](https://github.com/frapank/G0wm) - A full-featured wlroots-based Wayland compositor originally forked from dwl
