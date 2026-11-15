@@ -221,6 +221,7 @@ LAUNCHERS
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [waylauncher](https://github.com/tomipkoskinen/waylauncher) - A GTK-based application launcher implementing the `gtk4-layer-shell` protocol
 - ![Python](https://img.shields.io/badge/python-4584b6?style=plastic&logo=python&logoColor=ffde57) [waypiedock](https://gitlab.com/Arnaudv6/waypiedock) - A launcher dock, in the shape of a pie, under the mouse
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [wldash](https://github.com/kennylevinsen/wldash) - A dashboard, launcher, or control panel for Wayland, using the `wlr-layer-shell-unstable-v1` protocol
+- ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic&logo=c%2B%2B&logoColor=fff) [wl-dock](https://github.com/liudng/wl-dock) - A lightweight Qt-based launcher for Wayland compositors implementing the `wlr-foreign-toplevel-management-unstable-v1` and `wlr-layer-shell-unstable-v1` protocols
 - ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic&logo=c&logoColor=fff) [wmenu](https://codeberg.org/adnano/wmenu) - A dynamic menu for Sway and wlroots-based compositors inspired by dmenu
 - ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic&logo=rust&logoColor=fff) [yofi](https://github.com/l4l/yofi) - A minimalistic menu for Wayland-based compositors
 
